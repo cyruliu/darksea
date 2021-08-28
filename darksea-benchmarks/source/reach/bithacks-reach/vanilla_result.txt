@@ -1,0 +1,129 @@
+-------------------running time for consecutive-zero-bits-trailing_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for consecutive-zero-bits-trailing_false.c, bv_mathsat: 
+ * TraceAbstraction took 349.63 ms. Allocated memory is still 530.6 MB. Free memory was 499.2 MB in the beginning and 486.6 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for consecutive-zero-bits-trailing_false.c, bv_z3: 
+ * TraceAbstraction took 414.78 ms. Allocated memory is still 530.6 MB. Free memory was 498.9 MB in the beginning and 486.7 MB in the end (delta: 12.2 MB). Peak memory consumption was 10.5 MB. Max. memory is 10.7 GB.
+running time for consecutive-zero-bits-trailing_false.c, bv_cvc4: 
+ * TraceAbstraction took 373.99 ms. Allocated memory is still 530.6 MB. Free memory was 499.4 MB in the beginning and 487.6 MB in the end (delta: 11.7 MB). Peak memory consumption was 14.7 MB. Max. memory is 10.7 GB.
+running time for consecutive-zero-bits-trailing_false.c, bv_default: 
+ * TraceAbstraction took 382.56 ms. Allocated memory is still 530.6 MB. Free memory was 498.8 MB in the beginning and 486.7 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for counting-bits-BK1_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for counting-bits-BK1_false.c, bv_mathsat: 
+ * TraceAbstraction took 363.84 ms. Allocated memory is still 530.6 MB. Free memory was 499.7 MB in the beginning and 487.1 MB in the end (delta: 12.5 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for counting-bits-BK1_false.c, bv_z3: 
+ * TraceAbstraction took 393.66 ms. Allocated memory is still 530.6 MB. Free memory was 499.7 MB in the beginning and 487.8 MB in the end (delta: 11.9 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for counting-bits-BK1_false.c, bv_cvc4: 
+ * TraceAbstraction took 430.56 ms. Allocated memory is still 530.6 MB. Free memory was 499.3 MB in the beginning and 487.2 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for counting-bits-BK1_false.c, bv_default: 
+ * TraceAbstraction took 368.00 ms. Allocated memory is still 530.6 MB. Free memory was 499.1 MB in the beginning and 486.6 MB in the end (delta: 12.6 MB). Peak memory consumption was 14.7 MB. Max. memory is 10.7 GB.
+-------------------running time for counting-bits-BK_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for counting-bits-BK_false.c, bv_mathsat: 
+ * TraceAbstraction took 1053.66 ms. Allocated memory is still 530.6 MB. Free memory was 499.4 MB in the beginning and 451.8 MB in the end (delta: 47.6 MB). Peak memory consumption was 48.2 MB. Max. memory is 10.7 GB.
+running time for counting-bits-BK_false.c, bv_z3: 
+ * TraceAbstraction took 1182.64 ms. Allocated memory is still 530.6 MB. Free memory was 499.4 MB in the beginning and 451.1 MB in the end (delta: 48.2 MB). Peak memory consumption was 48.2 MB. Max. memory is 10.7 GB.
+running time for counting-bits-BK_false.c, bv_cvc4: 
+ * TraceAbstraction took 1196.11 ms. Allocated memory is still 530.6 MB. Free memory was 499.6 MB in the beginning and 451.3 MB in the end (delta: 48.2 MB). Peak memory consumption was 48.2 MB. Max. memory is 10.7 GB.
+running time for counting-bits-BK_false.c, bv_default: 
+ * TraceAbstraction took 1290.12 ms. Allocated memory is still 530.6 MB. Free memory was 499.3 MB in the beginning and 451.7 MB in the end (delta: 47.6 MB). Peak memory consumption was 48.2 MB. Max. memory is 10.7 GB.
+-------------------running time for counting-bits-set_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for counting-bits-set_false.c, bv_mathsat: 
+ * TraceAbstraction took 1226.02 ms. Allocated memory is still 530.6 MB. Free memory was 499.4 MB in the beginning and 449.8 MB in the end (delta: 49.7 MB). Peak memory consumption was 50.3 MB. Max. memory is 10.7 GB.
+running time for counting-bits-set_false.c, bv_z3: 
+ * TraceAbstraction took 1132.69 ms. Allocated memory is still 530.6 MB. Free memory was 500.2 MB in the beginning and 450.6 MB in the end (delta: 49.6 MB). Peak memory consumption was 48.2 MB. Max. memory is 10.7 GB.
+running time for counting-bits-set_false.c, bv_cvc4: 
+ * TraceAbstraction took 1265.85 ms. Allocated memory is still 530.6 MB. Free memory was 499.7 MB in the beginning and 450.8 MB in the end (delta: 48.9 MB). Peak memory consumption was 48.2 MB. Max. memory is 10.7 GB.
+running time for counting-bits-set_false.c, bv_default: 
+ * TraceAbstraction took 1073.89 ms. Allocated memory is still 530.6 MB. Free memory was 499.9 MB in the beginning and 449.6 MB in the end (delta: 50.3 MB). Peak memory consumption was 50.3 MB. Max. memory is 10.7 GB.
+-------------------running time for display-bit1_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for display-bit1_false.c, bv_mathsat: 
+ * TraceAbstraction took 14992.61 ms. Allocated memory is still 530.6 MB. Free memory was 499.2 MB in the beginning and 223.9 MB in the end (delta: 275.3 MB). Peak memory consumption was 276.7 MB. Max. memory is 10.7 GB.
+running time for display-bit1_false.c, bv_z3: 
+ * TraceAbstraction took 19402.82 ms. Allocated memory is still 530.6 MB. Free memory was 499.9 MB in the beginning and 485.5 MB in the end (delta: 14.4 MB). Peak memory consumption was 15.0 MB. Max. memory is 10.7 GB.
+running time for display-bit1_false.c, bv_cvc4: 
+ * TraceAbstraction took 18513.76 ms. Allocated memory is still 530.6 MB. Free memory was 499.1 MB in the beginning and 484.3 MB in the end (delta: 14.8 MB). Peak memory consumption was 17.2 MB. Max. memory is 10.7 GB.
+running time for display-bit1_false.c, bv_default: 
+ * TraceAbstraction took 22966.44 ms. Allocated memory is still 530.6 MB. Free memory was 499.9 MB in the beginning and 313.1 MB in the end (delta: 186.9 MB). Peak memory consumption was 188.6 MB. Max. memory is 10.7 GB.
+-------------------running time for display-bit_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for display-bit_false.c, bv_mathsat: 
+ * TraceAbstraction took 15815.08 ms. Allocated memory is still 530.6 MB. Free memory was 497.3 MB in the beginning and 383.9 MB in the end (delta: 113.3 MB). Peak memory consumption was 115.8 MB. Max. memory is 10.7 GB.
+running time for display-bit_false.c, bv_z3: 
+ * TraceAbstraction took 20881.51 ms. Allocated memory was 530.6 MB in the beginning and 637.5 MB in the end (delta: 107.0 MB). Free memory was 496.6 MB in the beginning and 309.7 MB in the end (delta: 186.9 MB). Peak memory consumption was 295.8 MB. Max. memory is 10.7 GB.
+running time for display-bit_false.c, bv_cvc4: 
+ * TraceAbstraction took 19063.37 ms. Allocated memory is still 530.6 MB. Free memory was 497.4 MB in the beginning and 484.4 MB in the end (delta: 13.0 MB). Peak memory consumption was 15.4 MB. Max. memory is 10.7 GB.
+running time for display-bit_false.c, bv_default: 
+ * TraceAbstraction took 21439.82 ms. Allocated memory is still 530.6 MB. Free memory was 497.7 MB in the beginning and 278.2 MB in the end (delta: 219.5 MB). Peak memory consumption was 220.9 MB. Max. memory is 10.7 GB.
+-------------------running time for parity_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for parity_false.c, bv_mathsat: 
+ * TraceAbstraction took 892.97 ms. Allocated memory is still 530.6 MB. Free memory was 500.3 MB in the beginning and 466.7 MB in the end (delta: 33.6 MB). Peak memory consumption was 33.6 MB. Max. memory is 10.7 GB.
+running time for parity_false.c, bv_z3: 
+ * TraceAbstraction took 916.92 ms. Allocated memory is still 530.6 MB. Free memory was 500.5 MB in the beginning and 466.9 MB in the end (delta: 33.5 MB). Peak memory consumption was 33.6 MB. Max. memory is 10.7 GB.
+running time for parity_false.c, bv_cvc4: 
+ * TraceAbstraction took 896.98 ms. Allocated memory is still 530.6 MB. Free memory was 500.7 MB in the beginning and 467.2 MB in the end (delta: 33.6 MB). Peak memory consumption was 33.6 MB. Max. memory is 10.7 GB.
+running time for parity_false.c, bv_default: 
+ * TraceAbstraction took 861.34 ms. Allocated memory is still 530.6 MB. Free memory was 500.1 MB in the beginning and 466.5 MB in the end (delta: 33.6 MB). Peak memory consumption was 33.6 MB. Max. memory is 10.7 GB.
+-------------------running time for reverse-bits1_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for reverse-bits1_false.c, bv_mathsat: 
+ * TraceAbstraction took 403.03 ms. Allocated memory is still 530.6 MB. Free memory was 499.0 MB in the beginning and 485.7 MB in the end (delta: 13.3 MB). Peak memory consumption was 14.7 MB. Max. memory is 10.7 GB.
+running time for reverse-bits1_false.c, bv_z3: 
+ * TraceAbstraction took 394.86 ms. Allocated memory is still 530.6 MB. Free memory was 498.5 MB in the beginning and 485.8 MB in the end (delta: 12.7 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for reverse-bits1_false.c, bv_cvc4: 
+ * TraceAbstraction took 495.38 ms. Allocated memory is still 530.6 MB. Free memory was 498.3 MB in the beginning and 485.7 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for reverse-bits1_false.c, bv_default: 
+ * TraceAbstraction took 459.61 ms. Allocated memory is still 530.6 MB. Free memory was 498.8 MB in the beginning and 485.5 MB in the end (delta: 13.3 MB). Peak memory consumption was 14.7 MB. Max. memory is 10.7 GB.
+runinning time for counting-bits-BK1_false.c, bv_default: 
+-------------------runinning time for counting-bits-BK_false.c in vanilla BV, 4 settings --------------------------------------------
+runinning time for counting-bits-BK_false.c, bv_mathsat: 
+runinning time for counting-bits-BK_false.c, bv_z3: 
+runinning time for counting-bits-BK_false.c, bv_cvc4: 
+runinning time for counting-bits-BK_false.c, bv_default: 
+running time for counting-bits-BK_false.c, bv_default: 
+-------------------runinning time for counting-bits-set_false.c in vanilla BV, 4 settings --------------------------------------------
+runinning time for counting-bits-set_false.c, bv_mathsat: 
+-------------------running time for counting-bits-set_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for counting-bits-set_false.c, bv_mathsat: 
+runinning time for counting-bits-set_false.c, bv_z3: 
+running time for counting-bits-set_false.c, bv_z3: 
+runinning time for counting-bits-set_false.c, bv_cvc4: 
+running time for counting-bits-set_false.c, bv_cvc4: 
+runinning time for counting-bits-set_false.c, bv_default: 
+running time for counting-bits-set_false.c, bv_default: 
+-------------------running time for display-bit1_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for display-bit1_false.c, bv_mathsat: 
+running time for display-bit1_false.c, bv_z3: 
+running time for display-bit1_false.c, bv_cvc4: 
+running time for display-bit1_false.c, bv_default: 
+-------------------running time for display-bit_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for display-bit_false.c, bv_mathsat: 
+running time for display-bit_false.c, bv_z3: 
+running time for display-bit_false.c, bv_cvc4: 
+running time for display-bit_false.c, bv_default: 
+-------------------running time for parity_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for parity_false.c, bv_mathsat: 
+running time for parity_false.c, bv_z3: 
+running time for parity_false.c, bv_cvc4: 
+running time for parity_false.c, bv_default: 
+-------------------running time for reverse-bits1_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for reverse-bits1_false.c, bv_mathsat: 
+running time for reverse-bits1_false.c, bv_z3: 
+running time for reverse-bits1_false.c, bv_cvc4: 
+running time for reverse-bits1_false.c, bv_default: 
+-------------------runinning time for display-bit1_false.c in vanilla BV, 4 settings --------------------------------------------
+runinning time for display-bit1_false.c, bv_mathsat: 
+runinning time for display-bit1_false.c, bv_z3: 
+runinning time for display-bit1_false.c, bv_cvc4: 
+runinning time for display-bit1_false.c, bv_default: 
+-------------------runinning time for display-bit_false.c in vanilla BV, 4 settings --------------------------------------------
+runinning time for display-bit_false.c, bv_mathsat: 
+runinning time for display-bit_false.c, bv_z3: 
+runinning time for display-bit_false.c, bv_cvc4: 
+runinning time for display-bit_false.c, bv_default: 
+-------------------runinning time for parity_false.c in vanilla BV, 4 settings --------------------------------------------
+runinning time for parity_false.c, bv_mathsat: 
+runinning time for parity_false.c, bv_z3: 
+runinning time for parity_false.c, bv_cvc4: 
+runinning time for parity_false.c, bv_default: 
+-------------------runinning time for reverse-bits1_false.c in vanilla BV, 4 settings --------------------------------------------
+runinning time for reverse-bits1_false.c, bv_mathsat: 
+runinning time for reverse-bits1_false.c, bv_z3: 
+runinning time for reverse-bits1_false.c, bv_cvc4: 
+runinning time for reverse-bits1_false.c, bv_default: 

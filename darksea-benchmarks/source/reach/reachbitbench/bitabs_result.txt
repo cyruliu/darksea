@@ -1,0 +1,225 @@
+-------------------running time for and_loop.c in bitabs, 7 settings --------------------------------------------
+running time for and_loop.c, mathsat: 
+ * TraceAbstraction took 857.49 ms. Allocated memory is still 530.6 MB. Free memory was 500.8 MB in the beginning and 459.6 MB in the end (delta: 41.2 MB). Peak memory consumption was 39.8 MB. Max. memory is 10.7 GB.
+runinning time for and_loop.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 356.61 ms. Allocated memory is still 530.6 MB. Free memory was 503.2 MB in the beginning and 478.7 MB in the end (delta: 24.5 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+running time for and_loop.c, z3: 
+ * TraceAbstraction took 884.08 ms. Allocated memory is still 530.6 MB. Free memory was 500.2 MB in the beginning and 458.3 MB in the end (delta: 41.9 MB). Peak memory consumption was 41.9 MB. Max. memory is 10.7 GB.
+runinning time for and_loop.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 371.51 ms. Allocated memory is still 530.6 MB. Free memory was 499.5 MB in the beginning and 474.3 MB in the end (delta: 25.1 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+running time for and_loop.c, cvc4: 
+ * TraceAbstraction took 858.61 ms. Allocated memory is still 530.6 MB. Free memory was 500.9 MB in the beginning and 459.6 MB in the end (delta: 41.3 MB). Peak memory consumption was 41.9 MB. Max. memory is 10.7 GB.
+runinning time for and_loop.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 313.51 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 479.5 MB in the end (delta: 23.8 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+running time for and_loop.c, smtinterpol only: 
+ * TraceAbstraction took 449.82 ms. Allocated memory is still 530.6 MB. Free memory was 500.3 MB in the beginning and 475.9 MB in the end (delta: 24.4 MB). Peak memory consumption was 23.1 MB. Max. memory is 10.7 GB.
+-------------------running time for and_loop_false.c in bitabs, 7 settings --------------------------------------------
+running time for and_loop_false.c, mathsat: 
+ * TraceAbstraction took 793.21 ms. Allocated memory is still 530.6 MB. Free memory was 500.2 MB in the beginning and 470.2 MB in the end (delta: 30.0 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+runinning time for and_loop_false.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 395.86 ms. Allocated memory is still 530.6 MB. Free memory was 499.6 MB in the beginning and 480.8 MB in the end (delta: 18.9 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.
+running time for and_loop_false.c, z3: 
+ * TraceAbstraction took 839.10 ms. Allocated memory is still 530.6 MB. Free memory was 501.0 MB in the beginning and 469.9 MB in the end (delta: 31.1 MB). Peak memory consumption was 31.5 MB. Max. memory is 10.7 GB.
+runinning time for and_loop_false.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 339.47 ms. Allocated memory is still 530.6 MB. Free memory was 500.1 MB in the beginning and 480.5 MB in the end (delta: 19.5 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.
+running time for and_loop_false.c, cvc4: 
+ * TraceAbstraction took 997.81 ms. Allocated memory is still 530.6 MB. Free memory was 500.1 MB in the beginning and 468.6 MB in the end (delta: 31.5 MB). Peak memory consumption was 31.5 MB. Max. memory is 10.7 GB.
+runinning time for and_loop_false.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 326.32 ms. Allocated memory is still 530.6 MB. Free memory was 500.2 MB in the beginning and 480.6 MB in the end (delta: 19.6 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.
+running time for and_loop_false.c, smtinterpol only: 
+ * TraceAbstraction took 312.57 ms. Allocated memory is still 530.6 MB. Free memory was 501.0 MB in the beginning and 481.4 MB in the end (delta: 19.6 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+-------------------running time for and_reach1.c in bitabs, 7 settings --------------------------------------------
+running time for and_reach1.c, mathsat: 
+ * TraceAbstraction took 961.63 ms. Allocated memory is still 530.6 MB. Free memory was 502.0 MB in the beginning and 491.7 MB in the end (delta: 10.4 MB). Peak memory consumption was 11.7 MB. Max. memory is 10.7 GB.
+runinning time for and_reach1.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 387.10 ms. Allocated memory is still 530.6 MB. Free memory was 501.2 MB in the beginning and 480.2 MB in the end (delta: 21.0 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for and_reach1.c, z3: 
+ * TraceAbstraction took 908.82 ms. Allocated memory is still 530.6 MB. Free memory was 501.6 MB in the beginning and 487.3 MB in the end (delta: 14.3 MB). Peak memory consumption was 15.6 MB. Max. memory is 10.7 GB.
+runinning time for and_reach1.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 358.34 ms. Allocated memory is still 530.6 MB. Free memory was 501.9 MB in the beginning and 480.9 MB in the end (delta: 21.0 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for and_reach1.c, cvc4: 
+ * TraceAbstraction took 976.29 ms. Allocated memory is still 530.6 MB. Free memory was 501.2 MB in the beginning and 485.5 MB in the end (delta: 15.7 MB). Peak memory consumption was 17.8 MB. Max. memory is 10.7 GB.
+runinning time for and_reach1.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 337.80 ms. Allocated memory is still 530.6 MB. Free memory was 502.2 MB in the beginning and 482.6 MB in the end (delta: 19.5 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.
+running time for and_reach1.c, smtinterpol only: 
+ * TraceAbstraction took 396.08 ms. Allocated memory is still 530.6 MB. Free memory was 501.8 MB in the beginning and 481.4 MB in the end (delta: 20.3 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+-------------------running time for and_reach.c in bitabs, 7 settings --------------------------------------------
+running time for and_reach.c, mathsat: 
+ * TraceAbstraction took 512.91 ms. Allocated memory is still 530.6 MB. Free memory was 501.9 MB in the beginning and 476.1 MB in the end (delta: 25.8 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+runinning time for and_reach.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 305.86 ms. Allocated memory is still 530.6 MB. Free memory was 502.7 MB in the beginning and 485.2 MB in the end (delta: 17.5 MB). Peak memory consumption was 16.8 MB. Max. memory is 10.7 GB.
+running time for and_reach.c, z3: 
+ * TraceAbstraction took 523.58 ms. Allocated memory is still 530.6 MB. Free memory was 502.9 MB in the beginning and 477.0 MB in the end (delta: 25.9 MB). Peak memory consumption was 27.3 MB. Max. memory is 10.7 GB.
+runinning time for and_reach.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 293.85 ms. Allocated memory is still 530.6 MB. Free memory was 502.1 MB in the beginning and 484.6 MB in the end (delta: 17.5 MB). Peak memory consumption was 16.8 MB. Max. memory is 10.7 GB.
+running time for and_reach.c, cvc4: 
+ * TraceAbstraction took 585.25 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 476.7 MB in the end (delta: 25.9 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+runinning time for and_reach.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 329.42 ms. Allocated memory is still 530.6 MB. Free memory was 501.9 MB in the beginning and 485.1 MB in the end (delta: 16.8 MB). Peak memory consumption was 16.8 MB. Max. memory is 10.7 GB.
+running time for and_reach.c, smtinterpol only: 
+ * TraceAbstraction took 388.33 ms. Allocated memory is still 530.6 MB. Free memory was 502.1 MB in the beginning and 484.6 MB in the end (delta: 17.5 MB). Peak memory consumption was 16.8 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_and.c in bitabs, 7 settings --------------------------------------------
+running time for logic_and.c, mathsat: 
+ * TraceAbstraction took 1967.46 ms. Allocated memory is still 530.6 MB. Free memory was 503.1 MB in the beginning and 253.4 MB in the end (delta: 249.7 MB). Peak memory consumption was 252.9 MB. Max. memory is 10.7 GB.
+runinning time for logic_and.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 398.52 ms. Allocated memory is still 530.6 MB. Free memory was 500.3 MB in the beginning and 480.7 MB in the end (delta: 19.6 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.
+running time for logic_and.c, z3: 
+ * TraceAbstraction took 1905.22 ms. Allocated memory was 530.6 MB in the beginning and 637.5 MB in the end (delta: 107.0 MB). Free memory was 501.6 MB in the beginning and 371.1 MB in the end (delta: 130.5 MB). Peak memory consumption was 240.5 MB. Max. memory is 10.7 GB.
+runinning time for logic_and.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 344.36 ms. Allocated memory is still 530.6 MB. Free memory was 501.7 MB in the beginning and 482.1 MB in the end (delta: 19.6 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.
+running time for logic_and.c, cvc4: 
+ * TraceAbstraction took 2163.74 ms. Allocated memory was 530.6 MB in the beginning and 654.3 MB in the end (delta: 123.7 MB). Free memory was 501.1 MB in the beginning and 396.0 MB in the end (delta: 105.1 MB). Peak memory consumption was 231.9 MB. Max. memory is 10.7 GB.
+runinning time for logic_and.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 360.33 ms. Allocated memory is still 530.6 MB. Free memory was 501.8 MB in the beginning and 482.9 MB in the end (delta: 18.9 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.
+running time for logic_and.c, smtinterpol only: 
+ * TraceAbstraction took 366.17 ms. Allocated memory is still 530.6 MB. Free memory was 501.1 MB in the beginning and 480.8 MB in the end (delta: 20.3 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_and_false.c in bitabs, 7 settings --------------------------------------------
+running time for logic_and_false.c, mathsat: 
+ * TraceAbstraction took 422.76 ms. Allocated memory is still 530.6 MB. Free memory was 503.2 MB in the beginning and 490.6 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_and_false.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 215.97 ms. Allocated memory is still 530.6 MB. Free memory was 503.5 MB in the beginning and 491.0 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_and_false.c, z3: 
+ * TraceAbstraction took 404.82 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 491.2 MB in the end (delta: 12.2 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_and_false.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 212.75 ms. Allocated memory is still 530.6 MB. Free memory was 503.5 MB in the beginning and 491.0 MB in the end (delta: 12.5 MB). Peak memory consumption was 10.5 MB. Max. memory is 10.7 GB.
+running time for logic_and_false.c, cvc4: 
+ * TraceAbstraction took 425.59 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 490.7 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_and_false.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 206.79 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 491.4 MB in the end (delta: 11.9 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_and_false.c, smtinterpol only: 
+ * TraceAbstraction took 199.67 ms. Allocated memory is still 530.6 MB. Free memory was 503.2 MB in the beginning and 490.6 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_cmpl.c in bitabs, 7 settings --------------------------------------------
+running time for logic_cmpl.c, mathsat: 
+ * TraceAbstraction took 702.46 ms. Allocated memory is still 530.6 MB. Free memory was 503.8 MB in the beginning and 474.4 MB in the end (delta: 29.5 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+runinning time for logic_cmpl.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 355.63 ms. Allocated memory is still 530.6 MB. Free memory was 504.0 MB in the beginning and 482.4 MB in the end (delta: 21.7 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl.c, z3: 
+ * TraceAbstraction took 716.22 ms. Allocated memory is still 530.6 MB. Free memory was 504.0 MB in the beginning and 475.4 MB in the end (delta: 28.7 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+runinning time for logic_cmpl.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 424.99 ms. Allocated memory is still 530.6 MB. Free memory was 503.2 MB in the beginning and 482.2 MB in the end (delta: 21.0 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl.c, cvc4: 
+ * TraceAbstraction took 656.54 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 473.9 MB in the end (delta: 29.4 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+runinning time for logic_cmpl.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 376.95 ms. Allocated memory is still 530.6 MB. Free memory was 504.0 MB in the beginning and 483.1 MB in the end (delta: 21.0 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl.c, smtinterpol only: 
+ * TraceAbstraction took 394.65 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 482.4 MB in the end (delta: 21.0 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_cmpl_false.c in bitabs, 7 settings --------------------------------------------
+running time for logic_cmpl_false.c, mathsat: 
+ * TraceAbstraction took 442.60 ms. Allocated memory is still 530.6 MB. Free memory was 503.7 MB in the beginning and 491.8 MB in the end (delta: 11.9 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_cmpl_false.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 219.32 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 492.4 MB in the end (delta: 11.2 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl_false.c, z3: 
+ * TraceAbstraction took 406.70 ms. Allocated memory is still 530.6 MB. Free memory was 503.7 MB in the beginning and 491.1 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_cmpl_false.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 239.81 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 491.5 MB in the end (delta: 11.9 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl_false.c, cvc4: 
+ * TraceAbstraction took 378.47 ms. Allocated memory is still 530.6 MB. Free memory was 503.0 MB in the beginning and 490.9 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_cmpl_false.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 219.44 ms. Allocated memory is still 530.6 MB. Free memory was 503.7 MB in the beginning and 491.8 MB in the end (delta: 11.9 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl_false.c, smtinterpol only: 
+ * TraceAbstraction took 200.23 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 492.1 MB in the end (delta: 11.2 MB). Peak memory consumption was 14.7 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_or.c in bitabs, 7 settings --------------------------------------------
+running time for logic_or.c, mathsat: 
+ * TraceAbstraction took 776.06 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 464.8 MB in the end (delta: 38.5 MB). Peak memory consumption was 39.8 MB. Max. memory is 10.7 GB.
+runinning time for logic_or.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 328.05 ms. Allocated memory is still 530.6 MB. Free memory was 501.7 MB in the beginning and 481.4 MB in the end (delta: 20.3 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for logic_or.c, z3: 
+ * TraceAbstraction took 730.41 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 464.2 MB in the end (delta: 38.4 MB). Peak memory consumption was 37.7 MB. Max. memory is 10.7 GB.
+runinning time for logic_or.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 358.46 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 482.7 MB in the end (delta: 21.0 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for logic_or.c, cvc4: 
+ * TraceAbstraction took 768.66 ms. Allocated memory is still 530.6 MB. Free memory was 504.2 MB in the beginning and 466.5 MB in the end (delta: 37.7 MB). Peak memory consumption was 37.7 MB. Max. memory is 10.7 GB.
+runinning time for logic_or.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 361.69 ms. Allocated memory is still 530.6 MB. Free memory was 501.7 MB in the beginning and 480.8 MB in the end (delta: 21.0 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for logic_or.c, smtinterpol only: 
+ * TraceAbstraction took 369.70 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 482.3 MB in the end (delta: 20.3 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_or_false.c in bitabs, 7 settings --------------------------------------------
+running time for logic_or_false.c, mathsat: 
+ * TraceAbstraction took 374.61 ms. Allocated memory is still 530.6 MB. Free memory was 503.5 MB in the beginning and 491.4 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_or_false.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 213.00 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 492.5 MB in the end (delta: 11.2 MB). Peak memory consumption was 10.5 MB. Max. memory is 10.7 GB.
+running time for logic_or_false.c, z3: 
+ * TraceAbstraction took 386.50 ms. Allocated memory is still 530.6 MB. Free memory was 503.9 MB in the beginning and 491.8 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_or_false.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 245.49 ms. Allocated memory is still 530.6 MB. Free memory was 503.9 MB in the beginning and 491.3 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_or_false.c, cvc4: 
+ * TraceAbstraction took 419.88 ms. Allocated memory is still 530.6 MB. Free memory was 504.3 MB in the beginning and 491.2 MB in the end (delta: 13.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_or_false.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 210.26 ms. Allocated memory is still 530.6 MB. Free memory was 504.5 MB in the beginning and 493.3 MB in the end (delta: 11.2 MB). Peak memory consumption was 10.5 MB. Max. memory is 10.7 GB.
+running time for logic_or_false.c, smtinterpol only: 
+ * TraceAbstraction took 210.72 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 491.7 MB in the end (delta: 11.9 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_xor.c in bitabs, 7 settings --------------------------------------------
+running time for logic_xor.c, mathsat: 
+ * TraceAbstraction took 890.86 ms. Allocated memory is still 530.6 MB. Free memory was 502.7 MB in the beginning and 455.9 MB in the end (delta: 46.8 MB). Peak memory consumption was 46.1 MB. Max. memory is 10.7 GB.
+runinning time for logic_xor.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 416.07 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 480.5 MB in the end (delta: 23.1 MB). Peak memory consumption was 23.1 MB. Max. memory is 10.7 GB.
+running time for logic_xor.c, z3: 
+ * TraceAbstraction took 912.71 ms. Allocated memory is still 530.6 MB. Free memory was 502.7 MB in the beginning and 456.5 MB in the end (delta: 46.1 MB). Peak memory consumption was 46.1 MB. Max. memory is 10.7 GB.
+runinning time for logic_xor.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 371.07 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 480.3 MB in the end (delta: 23.1 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+running time for logic_xor.c, cvc4: 
+ * TraceAbstraction took 860.07 ms. Allocated memory is still 530.6 MB. Free memory was 502.2 MB in the beginning and 463.8 MB in the end (delta: 38.4 MB). Peak memory consumption was 37.7 MB. Max. memory is 10.7 GB.
+runinning time for logic_xor.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 443.40 ms. Allocated memory is still 530.6 MB. Free memory was 503.8 MB in the beginning and 481.4 MB in the end (delta: 22.4 MB). Peak memory consumption was 21.0 MB. Max. memory is 10.7 GB.
+running time for logic_xor.c, smtinterpol only: 
+ * TraceAbstraction took 390.74 ms. Allocated memory is still 530.6 MB. Free memory was 502.4 MB in the beginning and 478.6 MB in the end (delta: 23.8 MB). Peak memory consumption was 23.1 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_xor_false.c in bitabs, 7 settings --------------------------------------------
+running time for logic_xor_false.c, mathsat: 
+ * TraceAbstraction took 396.20 ms. Allocated memory is still 530.6 MB. Free memory was 502.2 MB in the beginning and 490.3 MB in the end (delta: 11.9 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_xor_false.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 262.15 ms. Allocated memory is still 530.6 MB. Free memory was 502.8 MB in the beginning and 490.9 MB in the end (delta: 11.9 MB). Peak memory consumption was 10.5 MB. Max. memory is 10.7 GB.
+running time for logic_xor_false.c, z3: 
+ * TraceAbstraction took 393.94 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 490.0 MB in the end (delta: 13.3 MB). Peak memory consumption was 14.7 MB. Max. memory is 10.7 GB.
+runinning time for logic_xor_false.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 222.56 ms. Allocated memory is still 530.6 MB. Free memory was 502.4 MB in the beginning and 490.5 MB in the end (delta: 11.9 MB). Peak memory consumption was 10.5 MB. Max. memory is 10.7 GB.
+running time for logic_xor_false.c, cvc4: 
+ * TraceAbstraction took 424.72 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 491.2 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for logic_xor_false.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 216.65 ms. Allocated memory is still 530.6 MB. Free memory was 503.7 MB in the beginning and 491.1 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_xor_false.c, smtinterpol only: 
+ * TraceAbstraction took 211.28 ms. Allocated memory is still 530.6 MB. Free memory was 504.3 MB in the beginning and 491.0 MB in the end (delta: 13.3 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for nonlinear_and.c in bitabs, 7 settings --------------------------------------------
+running time for nonlinear_and.c, mathsat: 
+ * TraceAbstraction took 415.69 ms. Allocated memory is still 530.6 MB. Free memory was 501.5 MB in the beginning and 488.7 MB in the end (delta: 12.8 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for nonlinear_and.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 478.81 ms. Allocated memory is still 530.6 MB. Free memory was 501.4 MB in the beginning and 485.1 MB in the end (delta: 16.3 MB). Peak memory consumption was 16.8 MB. Max. memory is 10.7 GB.
+running time for nonlinear_and.c, z3: 
+ * TraceAbstraction took 385.58 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 489.2 MB in the end (delta: 13.5 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for nonlinear_and.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 475.05 ms. Allocated memory is still 530.6 MB. Free memory was 500.8 MB in the beginning and 484.0 MB in the end (delta: 16.8 MB). Peak memory consumption was 16.8 MB. Max. memory is 10.7 GB.
+running time for nonlinear_and.c, cvc4: 
+ * TraceAbstraction took 454.40 ms. Allocated memory is still 530.6 MB. Free memory was 501.9 MB in the beginning and 489.1 MB in the end (delta: 12.8 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+runinning time for nonlinear_and.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 464.22 ms. Allocated memory is still 530.6 MB. Free memory was 501.5 MB in the beginning and 485.2 MB in the end (delta: 16.3 MB). Peak memory consumption was 16.8 MB. Max. memory is 10.7 GB.
+running time for nonlinear_and.c, smtinterpol only: 
+ * TraceAbstraction took 456.67 ms. Allocated memory is still 530.6 MB. Free memory was 500.1 MB in the beginning and 483.4 MB in the end (delta: 16.8 MB). Peak memory consumption was 16.8 MB. Max. memory is 10.7 GB.
+-------------------running time for trace_and1.c in bitabs, 7 settings --------------------------------------------
+running time for trace_and1.c, mathsat: 
+ * TraceAbstraction took 1619.18 ms. Allocated memory is still 530.6 MB. Free memory was 496.8 MB in the beginning and 474.4 MB in the end (delta: 22.5 MB). Peak memory consumption was 24.5 MB. Max. memory is 10.7 GB.
+runinning time for trace_and1.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 577.67 ms. Allocated memory is still 530.6 MB. Free memory was 497.1 MB in the beginning and 454.4 MB in the end (delta: 42.6 MB). Peak memory consumption was 44.0 MB. Max. memory is 10.7 GB.
+running time for trace_and1.c, z3: 
+ * TraceAbstraction took 2480.55 ms. Allocated memory is still 530.6 MB. Free memory was 497.8 MB in the beginning and 415.8 MB in the end (delta: 82.0 MB). Peak memory consumption was 83.4 MB. Max. memory is 10.7 GB.
+runinning time for trace_and1.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 572.80 ms. Allocated memory is still 530.6 MB. Free memory was 496.8 MB in the beginning and 454.9 MB in the end (delta: 42.0 MB). Peak memory consumption was 41.9 MB. Max. memory is 10.7 GB.
+running time for trace_and1.c, cvc4: 
+ * TraceAbstraction took 2122.73 ms. Allocated memory is still 530.6 MB. Free memory was 497.2 MB in the beginning and 451.3 MB in the end (delta: 46.0 MB). Peak memory consumption was 48.1 MB. Max. memory is 10.7 GB.
+runinning time for trace_and1.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 610.81 ms. Allocated memory is still 530.6 MB. Free memory was 496.0 MB in the beginning and 454.7 MB in the end (delta: 41.2 MB). Peak memory consumption was 39.8 MB. Max. memory is 10.7 GB.
+running time for trace_and1.c, smtinterpol only: 
+ * TraceAbstraction took 607.30 ms. Allocated memory is still 530.6 MB. Free memory was 497.0 MB in the beginning and 455.1 MB in the end (delta: 41.9 MB). Peak memory consumption was 41.9 MB. Max. memory is 10.7 GB.
+-------------------running time for trace_and.c in bitabs, 7 settings --------------------------------------------
+running time for trace_and.c, mathsat: 
+ * TraceAbstraction took 1351.91 ms. Allocated memory is still 530.6 MB. Free memory was 501.2 MB in the beginning and 441.8 MB in the end (delta: 59.4 MB). Peak memory consumption was 60.8 MB. Max. memory is 10.7 GB.
+runinning time for trace_and.c, smtinterpol + mathsat: 
+ * TraceAbstraction took 492.22 ms. Allocated memory is still 530.6 MB. Free memory was 502.0 MB in the beginning and 472.0 MB in the end (delta: 30.0 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for trace_and.c, z3: 
+ * TraceAbstraction took 2471.22 ms. Allocated memory is still 530.6 MB. Free memory was 501.1 MB in the beginning and 447.7 MB in the end (delta: 53.4 MB). Peak memory consumption was 55.5 MB. Max. memory is 10.7 GB.
+runinning time for trace_and.c, smtinterpol + z3(default): 
+ * TraceAbstraction took 414.66 ms. Allocated memory is still 530.6 MB. Free memory was 500.5 MB in the beginning and 471.2 MB in the end (delta: 29.4 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for trace_and.c, cvc4: 
+ * TraceAbstraction took 1608.95 ms. Allocated memory is still 530.6 MB. Free memory was 501.2 MB in the beginning and 497.9 MB in the end (delta: 3.3 MB). Peak memory consumption was 5.4 MB. Max. memory is 10.7 GB.
+runinning time for trace_and.c, smtinterpol + cvc4: 
+ * TraceAbstraction took 440.51 ms. Allocated memory is still 530.6 MB. Free memory was 501.9 MB in the beginning and 471.2 MB in the end (delta: 30.7 MB). Peak memory consumption was 31.5 MB. Max. memory is 10.7 GB.
+running time for trace_and.c, smtinterpol only: 
+ * TraceAbstraction took 459.83 ms. Allocated memory is still 530.6 MB. Free memory was 502.1 MB in the beginning and 472.7 MB in the end (delta: 29.4 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.

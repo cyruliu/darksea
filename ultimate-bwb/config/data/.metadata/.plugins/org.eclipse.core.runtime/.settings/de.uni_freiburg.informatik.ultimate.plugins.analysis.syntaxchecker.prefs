@@ -1,0 +1,5 @@
+Command\ for\ syntax\ error\ check=gcc -std\=c11 -pedantic -w -fsyntax-only
+Command\ for\ syntax\ warning\ check=gcc -std\=c11 -pedantic -Wsequence-point -fsyntax-only
+Do\ additional\ syntax\ warning\ check=true
+eclipse.preferences.version=1
+remove\ filename\ from\ checker\ output=true

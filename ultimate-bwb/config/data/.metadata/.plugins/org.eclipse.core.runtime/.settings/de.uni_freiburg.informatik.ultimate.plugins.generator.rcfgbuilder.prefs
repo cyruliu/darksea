@@ -1,0 +1,5 @@
+Convert\ code\ blocks\ to\ CNF=false
+Dump\ SMT\ script\ to\ file=true
+Remove\ goto\ edges\ from\ RCFG=false
+Size\ of\ a\ code\ block=SequenceOfStatements
+eclipse.preferences.version=1

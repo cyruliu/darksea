@@ -1,0 +1,5 @@
+Command=print($1);
+Directory=.
+Ignore\ all\ commands\ and\ only\ execute\ below\ command=false
+Write\ results\ of\ print\ operation\ to\ file=false
+eclipse.preferences.version=1

@@ -1,0 +1,7 @@
+Command\ line\ string\ ($1\ will\ be\ replaced\ with\ the\ property)=\!($1)
+Path\ to\ LTL*BA\ executable\ (LTL2BA,\ LTL3BA)=ltl2ba
+Property\ to\ check=[] a \n a\: x > 42
+Read\ property\ from\ file=false
+Rewrite\ not\ equals\ during\ small\ block\ encoding=false
+Use\ small\ block\ encoding=false
+eclipse.preferences.version=1

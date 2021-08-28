@@ -1,0 +1,15 @@
+//@ ltl invariant positive: [](<>AP(n<0));
+extern int __VERIFIER_nondet_int() __attribute__ ((__noreturn__));
+int n;
+int x, y;
+int main() {
+  n = __VERIFIER_nondet_int();
+  x = __VERIFIER_nondet_int();
+  y = x-1;
+  while (x>0){
+    y=x|1;
+    x=x-y;
+  }
+  n=-1;
+  return 0;
+}

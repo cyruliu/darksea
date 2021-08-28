@@ -1,0 +1,12 @@
+Apply\ optimizations\ until\ nothing\ changes=true
+Create\ interprocedural\ compositions=true
+Create\ parallel\ compositions\ if\ possible=false
+Iterate\ optimizations\ for\ n\ times\ (<\=0\ means\ until\ nothing\ changes)=0
+Maximize\ final\ states=true
+Minimize\ states\ even\ if\ more\ edges\ are\ added\ than\ removed.=false
+Remove\ infeasible\ edges=true
+Remove\ sink\ states=true
+Rewrite\ not-equals=false
+Simplify\ transitions=false
+Use\ SBE=true
+eclipse.preferences.version=1

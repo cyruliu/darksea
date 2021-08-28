@@ -1,0 +1,36 @@
+We are actually not completely lifted with vanilla mcsema, still need to extract the main entry function and change the low level type to abstract type. 
+
+For the GccBugs Examples, we have all the correct results, they are unsound due too the memory safety issue, pointer casting...
+
+For other benchmarke:
+
+[2021-02-01 00:17:27,651 FATAL L?                        ?]: The Plugin de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator has thrown an exception:
+java.lang.IllegalStateException: Check for isGlobalScope first
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.chandler.ProcedureManager.getCurrentProcedureID(ProcedureManager.java:399)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.chandler.MemoryHandler.getReadCall(MemoryHandler.java:866)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.chandler.MemoryHandler.getReadCall(MemoryHandler.java:775)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.result.ExpressionResultTransformer.readArrayFromHeap(ExpressionResultTransformer.java:482)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.result.ExpressionResultTransformer.readStructFromHeap(ExpressionResultTransformer.java:366)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.result.ExpressionResultTransformer.readStructFromHeap(ExpressionResultTransformer.java:397)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.result.ExpressionResultTransformer.switchToRValue(ExpressionResultTransformer.java:285)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.result.ExpressionResultTransformer$Transformation.lambda$0(ExpressionResultTransformer.java:88)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.result.ExpressionResultTransformer.transform(ExpressionResultTransformer.java:158)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.result.ExpressionResultTransformer.transformDispatchSwitchRexBoolToInt(ExpressionResultTransformer.java:205)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.ACSLHandler.visit(ACSLHandler.java:405)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainDispatcher.dispatch(MainDispatcher.java:443)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:665)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainDispatcher.dispatch(MainDispatcher.java:269)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.performMainRun(MainTranslator.java:244)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.translate(MainTranslator.java:206)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.run(MainTranslator.java:115)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.<init>(MainTranslator.java:93)
+	at de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.CACSL2BoogieTranslatorObserver.finish(CACSL2BoogieTranslatorObserver.java:128)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runObserver(PluginConnector.java:168)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runTool(PluginConnector.java:151)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.run(PluginConnector.java:128)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.executePluginConnector(ToolchainWalker.java:232)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.processPlugin(ToolchainWalker.java:226)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walkUnprotected(ToolchainWalker.java:142)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walk(ToolchainWalker.java:104)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainManager$Toolchain.processToolchain(ToolchainManager.java:320)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.toolchain.DefaultToolchainJob.run(DefaultToolchainJob.java:145)

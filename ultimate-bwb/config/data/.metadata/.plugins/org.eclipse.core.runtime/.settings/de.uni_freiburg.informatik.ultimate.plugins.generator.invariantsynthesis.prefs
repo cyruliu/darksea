@@ -1,0 +1,14 @@
+Guess\ danger\ invariant=false
+Increasing\ strategy=Conservative
+Initial\ conjuncts=1
+Initial\ disjuncts=1
+Kind\ of\ invariant=SAFETY
+Large-Block-Encoding=true
+Nonlinear\ constraints=false
+Solver\ timeout\ (sec)=15
+Step\ to\ increase\ conjuncts=1
+Step\ to\ increase\ disjuncts=1
+Use\ abstract\ interpretation=false
+Use\ external\ solver\ (z3)=true
+Use\ unsat\ cores=true
+eclipse.preferences.version=1

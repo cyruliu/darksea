@@ -1,0 +1,17 @@
+Command\ to\ execute\ witness\ verifier=
+Delete\ the\ .graphml\ file\ after\ verification=false
+Do\ not\ use\ ACSL=true
+Generate\ witnesses=true
+Graph\ data\ architecture=UNUSED
+Graph\ data\ producer=UNUSED
+Graph\ data\ programhash=UNUSED
+Graph\ data\ specification=UNUSED
+Log\ witness\ to\ console=false
+Path\ to\ .prp\ file=
+Timeout\ in\ seconds\ for\ witness\ verifier=10
+Use\ the\ following\ witness\ verifier=CPACHECKER
+Verify\ the\ witness\ and\ generate\ results=false
+Witness\ directory=.
+Witness\ filename=witness.graphml
+Write\ witness\ besides\ input\ file=true
+eclipse.preferences.version=1

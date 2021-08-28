@@ -1,0 +1,4 @@
+Dump\ automata\ to\ files=false
+Trace\ refinement\ exception\ blacklist=NONE
+Trace\ refinement\ strategy=CAMEL
+eclipse.preferences.version=1

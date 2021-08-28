@@ -1,3 +1,12 @@
+# DarkSea: Proving LTL Properties of Bitvector Programs and Decompiled Binaries
+`DarkSea` is a toolchain that runs from low level binary disassembly, lifting to high level source code verification, it is built on the top of various public softwares,
+refer to [install_darksea](run/install_darksea.sh) for details of versions and installations that has been tested in our experiments.
+
+- `run`, scripts and code instrument binaries.
+- `src`, llvm passses for binary instruments and our bitwise branching technique.
+- `ultimate-bwb`, an independent software verifier built with [Ultimate](https://github.com/ultimate-pa/ultimate) program analysis framework.
+- `darksea-benchmarks`, lifted source code and c programs that have been used in `DarkSea` experiments.
+
 ## Run with DarkSea
 
 There are three type of running input, the output path specified by `-o` contains all the lifted results:

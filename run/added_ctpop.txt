@@ -1,0 +1,8 @@
+
+static uint32_t llvm_OC_ctpop_OC_i32(uint32_t x) {
+ uint32_t c;
+  for (c = 0; x != 0; x >>= 1)
+     if (x & 1)
+       c++;
+   return c;
+}

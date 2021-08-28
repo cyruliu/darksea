@@ -1,0 +1,15 @@
+#ifndef SIMPLIFY_REG_NAME_H
+#define SYMPLIFY_REG_NAME_H
+
+#include <string>
+#include "llvm/IR/GlobalVariable.h"
+
+std::string STATE_REGS_NAME_X86[17] = {"STATE_REG_RAX", "STATE_REG_RBX", "STATE_REG_RCX", "STATE_REG_RDX",
+ "STATE_REG_RSI", "STATE_REG_RDI", "STATE_REG_RSP", "STATE_REG_RBP",
+ "STATE_REG_R8", "STATE_REG_R9", "STATE_REG_R10", "STATE_REG_R11",
+ "STATE_REG_R12", "STATE_REG_R13", "STATE_REG_R14", "STATE_REG_R15", "STATE_REG_IP"
+};
+
+llvm::GlobalVariable* STATE_REGS_GLOBAL_VARS[17];
+
+#endif

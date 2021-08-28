@@ -1,0 +1,3 @@
+
+struct l_struct_struct_OC_State global_state;
+struct l_struct_struct_OC_State* globalState = &global_state;

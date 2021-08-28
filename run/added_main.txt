@@ -1,0 +1,17 @@
+
+#define kStackSize (1UL<<20UL)
+char dummyStack[kStackSize];
+struct l_struct_struct_OC_State global_state;
+struct l_struct_struct_OC_State* globalState = &global_state;
+int main(){
+        //struct l_struct_struct_OC_State *tmp = malloc(sizeof(struct l_struct_struct_OC_State));
+        //memset(tmp, 0, sizeof(struct l_struct_struct_OC_State));
+        struct l_struct_struct_OC_State *tmp = &global_state;
+        // initialize the dummy stack
+        STATE_REG_RSP = &dummyStack[kStackSize - 0x10];
+        STATE_REG_RBP = &dummyStack[kStackSize - 0x8];
+        (dummyStack[kStackSize - 0x10]) = (void*)0x40000000; // dummy return address
+        // call func => push rip; jmp function addr
+        dummy_main(tmp, (uint64_t)0, (void*)0);
+        return 0;
+}

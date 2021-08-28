@@ -1,0 +1,15 @@
+...\ calls\ to\ implemented\ procedures=ONLY_FOR_CONCURRENT_PROGRAMS
+Entry\ procedures=ULTIMATE.start
+Fallback\ to\ processing\ everything=true
+Ignore\ calls\ to\ and\ inside\ polymorphic\ procedures=true
+Ignore\ calls\ to\ procedures\ called\ more\ than\ once=NEVER
+Ignore\ calls\ to\ procedures\ with\ 'free\ requires'\ specifications=true
+Ignore\ calls\ to\ recursive\ procedures=true
+Ignore\ calls\ with\ 'forall'\ modifier=true
+Inline\ calls\ to\ implemented\ procedures=ALWAYS
+Inline\ calls\ to\ unimplemented\ procedures=false
+Process\ only\ entry\ and\ re-entry\ procedures=true
+Remove\ dead\ code=true
+User\ list=
+User\ list\ type=BLACKLIST_RESTRICT
+eclipse.preferences.version=1
