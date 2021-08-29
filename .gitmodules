@@ -1,3 +1,6 @@
 [submodule "src/cinstr"]
 	path = src/cinstr
 	url = git@github.com:letonchanh/cinstr.git
+[submodule "src/ultimate"]
+	path = src/ultimate
+	url = git@github.com:erickoskinen/ultimate.git
