@@ -6,6 +6,7 @@ refer to [install_darksea](run/install_darksea.sh) for details of versions and i
 - `src`, llvm passses for binary instruments and our bitwise branching technique.
 - `ultimate-bwb`, an independent software verifier built with [Ultimate](https://github.com/ultimate-pa/ultimate) program analysis framework.
 - `darksea-benchmarks`, lifted source code and c programs that have been used in `DarkSea` experiments.
+- `decompile-bin`, binaries and diassembled control flow graph (the disaseembler we used is `idaPro`).
 
 ## Run with DarkSea
 
