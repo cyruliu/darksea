@@ -173,7 +173,7 @@ else
 	cbe_instr=$cbe_output.instr.c
 fi
 
-bitabs=/tools/ultimate-bitabs
+bitabs=/tools/ultimate-bwb
 cd $bitabs
 echo "input lifted file: $cbe_instr."
 if [[ $REACH == 1 ]]; then

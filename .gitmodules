@@ -1,0 +1,3 @@
+[submodule "src/cinstr"]
+	path = src/cinstr
+	url = git@github.com:letonchanh/cinstr.git
