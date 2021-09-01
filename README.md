@@ -10,7 +10,7 @@ refer to [install_darksea](run/install_darksea.sh) for details of versions and i
 
 ## Run with DarkSea
 
-There are three type of running input for [darksea.sh](run/darksea.sh) (run scripts and `ultimate-bwb` detault directory is `/tools`), the output path specified by `-o` contains all the lifted results:
+There are three type of running input for [darksea.sh](run/darksea.sh) (run scripts and `ultimate-bwb` default directory is `/tools`), the output path specified by `-o` contains all the lifted results:
 1. User provides binary to be lifted and verified. `-d` for decompiler is optional, if not specified, use the default idapro path.
 
 2. User provide a source program and wish to verify its binary program, the input should be specified with `-s`.
