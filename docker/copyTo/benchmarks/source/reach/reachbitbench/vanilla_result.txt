@@ -1,0 +1,135 @@
+-------------------running time for and_loop.c in vanilla BV, 4 settings --------------------------------------------
+running time for and_loop.c, bv_mathsat: 
+ * TraceAbstraction took 678.73 ms. Allocated memory is still 530.6 MB. Free memory was 503.8 MB in the beginning and 473.8 MB in the end (delta: 30.0 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for and_loop.c, bv_z3: 
+ * TraceAbstraction took 701.49 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 472.5 MB in the end (delta: 30.0 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for and_loop.c, bv_cvc4: 
+ * TraceAbstraction took 742.47 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 472.5 MB in the end (delta: 30.0 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for and_loop.c, bv_default: 
+ * TraceAbstraction took 719.03 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 471.8 MB in the end (delta: 30.7 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+-------------------running time for and_loop_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for and_loop_false.c, bv_mathsat: 
+ * TraceAbstraction took 388.73 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 490.0 MB in the end (delta: 13.3 MB). Peak memory consumption was 14.7 MB. Max. memory is 10.7 GB.
+running time for and_loop_false.c, bv_z3: 
+ * TraceAbstraction took 434.86 ms. Allocated memory is still 530.6 MB. Free memory was 502.8 MB in the beginning and 490.0 MB in the end (delta: 12.8 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for and_loop_false.c, bv_cvc4: 
+ * TraceAbstraction took 461.73 ms. Allocated memory is still 530.6 MB. Free memory was 503.5 MB in the beginning and 490.2 MB in the end (delta: 13.3 MB). Peak memory consumption was 14.7 MB. Max. memory is 10.7 GB.
+running time for and_loop_false.c, bv_default: 
+ * TraceAbstraction took 428.03 ms. Allocated memory is still 530.6 MB. Free memory was 502.9 MB in the beginning and 489.3 MB in the end (delta: 13.5 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for and_reach1.c in vanilla BV, 4 settings --------------------------------------------
+running time for and_reach1.c, bv_mathsat: 
+ * TraceAbstraction took 740.01 ms. Allocated memory is still 530.6 MB. Free memory was 504.7 MB in the beginning and 472.5 MB in the end (delta: 32.1 MB). Peak memory consumption was 31.5 MB. Max. memory is 10.7 GB.
+running time for and_reach1.c, bv_z3: 
+ * TraceAbstraction took 758.48 ms. Allocated memory is still 530.6 MB. Free memory was 503.1 MB in the beginning and 469.5 MB in the end (delta: 33.6 MB). Peak memory consumption was 33.6 MB. Max. memory is 10.7 GB.
+running time for and_reach1.c, bv_cvc4: 
+ * TraceAbstraction took 717.22 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 470.4 MB in the end (delta: 32.2 MB). Peak memory consumption was 31.5 MB. Max. memory is 10.7 GB.
+running time for and_reach1.c, bv_default: 
+ * TraceAbstraction took 765.93 ms. Allocated memory is still 530.6 MB. Free memory was 502.9 MB in the beginning and 470.0 MB in the end (delta: 32.9 MB). Peak memory consumption was 31.5 MB. Max. memory is 10.7 GB.
+-------------------running time for and_reach.c in vanilla BV, 4 settings --------------------------------------------
+running time for and_reach.c, bv_mathsat: 
+ * TraceAbstraction took 540.34 ms. Allocated memory is still 530.6 MB. Free memory was 501.9 MB in the beginning and 476.1 MB in the end (delta: 25.8 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+running time for and_reach.c, bv_z3: 
+ * TraceAbstraction took 547.31 ms. Allocated memory is still 530.6 MB. Free memory was 501.5 MB in the beginning and 475.6 MB in the end (delta: 25.8 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+running time for and_reach.c, bv_cvc4: 
+ * TraceAbstraction took 591.48 ms. Allocated memory is still 530.6 MB. Free memory was 502.5 MB in the beginning and 476.7 MB in the end (delta: 25.9 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+running time for and_reach.c, bv_default: 
+ * TraceAbstraction took 602.07 ms. Allocated memory is still 530.6 MB. Free memory was 501.8 MB in the beginning and 475.8 MB in the end (delta: 26.0 MB). Peak memory consumption was 27.3 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_and.c in vanilla BV, 4 settings --------------------------------------------
+running time for logic_and.c, bv_mathsat: 
+ * TraceAbstraction took 617.16 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 475.4 MB in the end (delta: 28.0 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for logic_and.c, bv_z3: 
+ * TraceAbstraction took 614.99 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 476.3 MB in the end (delta: 27.3 MB). Peak memory consumption was 27.3 MB. Max. memory is 10.7 GB.
+running time for logic_and.c, bv_cvc4: 
+ * TraceAbstraction took 685.69 ms. Allocated memory is still 530.6 MB. Free memory was 504.1 MB in the beginning and 476.1 MB in the end (delta: 27.9 MB). Peak memory consumption was 27.3 MB. Max. memory is 10.7 GB.
+running time for logic_and.c, bv_default: 
+ * TraceAbstraction took 613.37 ms. Allocated memory is still 530.6 MB. Free memory was 504.2 MB in the beginning and 476.2 MB in the end (delta: 28.0 MB). Peak memory consumption was 27.3 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_and_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for logic_and_false.c, bv_mathsat: 
+ * TraceAbstraction took 400.88 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 491.3 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_and_false.c, bv_z3: 
+ * TraceAbstraction took 388.83 ms. Allocated memory is still 530.6 MB. Free memory was 503.9 MB in the beginning and 491.1 MB in the end (delta: 12.8 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_and_false.c, bv_cvc4: 
+ * TraceAbstraction took 437.57 ms. Allocated memory is still 530.6 MB. Free memory was 505.4 MB in the beginning and 493.2 MB in the end (delta: 12.2 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_and_false.c, bv_default: 
+ * TraceAbstraction took 387.40 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 490.7 MB in the end (delta: 11.9 MB). Peak memory consumption was 10.5 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_cmpl.c in vanilla BV, 4 settings --------------------------------------------
+running time for logic_cmpl.c, bv_mathsat: 
+ * TraceAbstraction took 542.39 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 480.4 MB in the end (delta: 23.1 MB). Peak memory consumption was 23.1 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl.c, bv_z3: 
+ * TraceAbstraction took 498.00 ms. Allocated memory is still 530.6 MB. Free memory was 503.1 MB in the beginning and 480.0 MB in the end (delta: 23.1 MB). Peak memory consumption was 23.1 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl.c, bv_cvc4: 
+ * TraceAbstraction took 648.58 ms. Allocated memory is still 530.6 MB. Free memory was 504.2 MB in the beginning and 481.7 MB in the end (delta: 22.5 MB). Peak memory consumption was 23.1 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl.c, bv_default: 
+ * TraceAbstraction took 540.34 ms. Allocated memory is still 530.6 MB. Free memory was 503.5 MB in the beginning and 480.4 MB in the end (delta: 23.1 MB). Peak memory consumption was 23.1 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_cmpl_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for logic_cmpl_false.c, bv_mathsat: 
+ * TraceAbstraction took 366.84 ms. Allocated memory is still 530.6 MB. Free memory was 504.2 MB in the beginning and 491.3 MB in the end (delta: 12.8 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl_false.c, bv_z3: 
+ * TraceAbstraction took 396.84 ms. Allocated memory is still 530.6 MB. Free memory was 502.5 MB in the beginning and 490.6 MB in the end (delta: 11.9 MB). Peak memory consumption was 10.5 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl_false.c, bv_cvc4: 
+ * TraceAbstraction took 440.60 ms. Allocated memory is still 530.6 MB. Free memory was 503.0 MB in the beginning and 490.8 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_cmpl_false.c, bv_default: 
+ * TraceAbstraction took 380.38 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 490.8 MB in the end (delta: 12.7 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_or.c in vanilla BV, 4 settings --------------------------------------------
+running time for logic_or.c, bv_mathsat: 
+ * TraceAbstraction took 645.11 ms. Allocated memory is still 530.6 MB. Free memory was 502.3 MB in the beginning and 472.3 MB in the end (delta: 30.0 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for logic_or.c, bv_z3: 
+ * TraceAbstraction took 653.22 ms. Allocated memory is still 530.6 MB. Free memory was 505.0 MB in the beginning and 474.9 MB in the end (delta: 30.0 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for logic_or.c, bv_cvc4: 
+ * TraceAbstraction took 675.67 ms. Allocated memory is still 530.6 MB. Free memory was 502.8 MB in the beginning and 473.5 MB in the end (delta: 29.4 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for logic_or.c, bv_default: 
+ * TraceAbstraction took 604.51 ms. Allocated memory is still 530.6 MB. Free memory was 503.1 MB in the beginning and 473.1 MB in the end (delta: 30.0 MB). Peak memory consumption was 31.5 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_or_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for logic_or_false.c, bv_mathsat: 
+ * TraceAbstraction took 391.29 ms. Allocated memory is still 530.6 MB. Free memory was 504.1 MB in the beginning and 491.5 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_or_false.c, bv_z3: 
+ * TraceAbstraction took 412.38 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 491.4 MB in the end (delta: 12.2 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_or_false.c, bv_cvc4: 
+ * TraceAbstraction took 428.02 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 491.3 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_or_false.c, bv_default: 
+ * TraceAbstraction took 389.52 ms. Allocated memory is still 530.6 MB. Free memory was 503.9 MB in the beginning and 491.2 MB in the end (delta: 12.8 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_xor.c in vanilla BV, 4 settings --------------------------------------------
+running time for logic_xor.c, bv_mathsat: 
+ * TraceAbstraction took 612.26 ms. Allocated memory is still 530.6 MB. Free memory was 503.2 MB in the beginning and 473.8 MB in the end (delta: 29.3 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for logic_xor.c, bv_z3: 
+ * TraceAbstraction took 624.42 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 473.2 MB in the end (delta: 29.4 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for logic_xor.c, bv_cvc4: 
+ * TraceAbstraction took 633.13 ms. Allocated memory is still 530.6 MB. Free memory was 503.2 MB in the beginning and 474.6 MB in the end (delta: 28.7 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+running time for logic_xor.c, bv_default: 
+ * TraceAbstraction took 682.38 ms. Allocated memory is still 530.6 MB. Free memory was 502.8 MB in the beginning and 474.1 MB in the end (delta: 28.7 MB). Peak memory consumption was 27.3 MB. Max. memory is 10.7 GB.
+-------------------running time for logic_xor_false.c in vanilla BV, 4 settings --------------------------------------------
+running time for logic_xor_false.c, bv_mathsat: 
+ * TraceAbstraction took 386.36 ms. Allocated memory is still 530.6 MB. Free memory was 504.5 MB in the beginning and 491.9 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_xor_false.c, bv_z3: 
+ * TraceAbstraction took 422.26 ms. Allocated memory is still 530.6 MB. Free memory was 503.6 MB in the beginning and 491.5 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_xor_false.c, bv_cvc4: 
+ * TraceAbstraction took 398.46 ms. Allocated memory is still 530.6 MB. Free memory was 503.9 MB in the beginning and 491.8 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for logic_xor_false.c, bv_default: 
+ * TraceAbstraction took 424.94 ms. Allocated memory is still 530.6 MB. Free memory was 503.5 MB in the beginning and 491.4 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for nonlinear_and.c in vanilla BV, 4 settings --------------------------------------------
+running time for nonlinear_and.c, bv_mathsat: 
+ * TraceAbstraction took 404.25 ms. Allocated memory is still 530.6 MB. Free memory was 504.1 MB in the beginning and 491.2 MB in the end (delta: 12.8 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for nonlinear_and.c, bv_z3: 
+ * TraceAbstraction took 421.42 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 490.0 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for nonlinear_and.c, bv_cvc4: 
+ * TraceAbstraction took 476.28 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 491.2 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+running time for nonlinear_and.c, bv_default: 
+ * TraceAbstraction took 424.82 ms. Allocated memory is still 530.6 MB. Free memory was 505.2 MB in the beginning and 492.6 MB in the end (delta: 12.6 MB). Peak memory consumption was 12.6 MB. Max. memory is 10.7 GB.
+-------------------running time for trace_and1.c in vanilla BV, 4 settings --------------------------------------------
+running time for trace_and1.c, bv_mathsat: 
+ * TraceAbstraction took 1333.68 ms. Allocated memory is still 530.6 MB. Free memory was 501.7 MB in the beginning and 497.8 MB in the end (delta: 3.9 MB). Peak memory consumption was 5.3 MB. Max. memory is 10.7 GB.
+running time for trace_and1.c, bv_z3: 
+ * TraceAbstraction took 1316.04 ms. Allocated memory is still 530.6 MB. Free memory was 502.4 MB in the beginning and 502.0 MB in the end (delta: 434.8 kB). Peak memory consumption was 1.2 MB. Max. memory is 10.7 GB.
+running time for trace_and1.c, bv_cvc4: 
+ * TraceAbstraction took 1448.46 ms. Allocated memory is still 530.6 MB. Free memory was 500.8 MB in the beginning and 499.0 MB in the end (delta: 1.8 MB). Peak memory consumption was 5.0 MB. Max. memory is 10.7 GB.
+running time for trace_and1.c, bv_default: 
+ * TraceAbstraction took 1390.87 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 499.9 MB in the end (delta: 2.6 MB). Peak memory consumption was 1.2 MB. Max. memory is 10.7 GB.
+-------------------running time for trace_and.c in vanilla BV, 4 settings --------------------------------------------
+running time for trace_and.c, bv_mathsat: 
+ * TraceAbstraction took 998.34 ms. Allocated memory is still 530.6 MB. Free memory was 502.6 MB in the beginning and 450.9 MB in the end (delta: 51.7 MB). Peak memory consumption was 50.3 MB. Max. memory is 10.7 GB.
+running time for trace_and.c, bv_z3: 
+ * TraceAbstraction took 1055.97 ms. Allocated memory is still 530.6 MB. Free memory was 503.8 MB in the beginning and 452.0 MB in the end (delta: 51.7 MB). Peak memory consumption was 52.4 MB. Max. memory is 10.7 GB.
+running time for trace_and.c, bv_cvc4: 
+ * TraceAbstraction took 1043.60 ms. Allocated memory is still 530.6 MB. Free memory was 503.4 MB in the beginning and 451.7 MB in the end (delta: 51.8 MB). Peak memory consumption was 52.4 MB. Max. memory is 10.7 GB.
+running time for trace_and.c, bv_default: 
+ * TraceAbstraction took 1005.09 ms. Allocated memory is still 530.6 MB. Free memory was 503.3 MB in the beginning and 452.3 MB in the end (delta: 51.0 MB). Peak memory consumption was 52.4 MB. Max. memory is 10.7 GB.

@@ -1,0 +1,10 @@
+FastUPR\ replacement\ mode=REPLACE_EXIT_EDGE
+Loopacceleration\ Biesenbach\ Mode=MARK_AS_OVERAPPROX
+Loopacceleration\ Werner\ Mode=SKIP_LOOP
+Map\ elimination\ Monniaux\:\ number\ of\ cells=1
+Map\ elimination\:\ add\ only\ implications\ when\ all\ vars\ are\ in\ transformula=false
+Map\ elimination\:\ add\ only\ trivial\ implications\ for\ array\ writes=true
+Map\ elimination\:\ add\ only\ trivial\ implications\ for\ modified\ arguments=true
+Map\ elimination\:\ also\ add\ inequalities=false
+TransformationType=LOOP_ACCELERATION_EXAMPLE
+eclipse.preferences.version=1

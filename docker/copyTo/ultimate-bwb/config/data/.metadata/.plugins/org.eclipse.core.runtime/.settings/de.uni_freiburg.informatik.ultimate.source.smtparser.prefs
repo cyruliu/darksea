@@ -1,0 +1,11 @@
+Command\ for\ external\ solver=z3 SMTLIB2_COMPLIANT\=true -memory\:1024 -smt2 -in -t\:12000
+Directory=
+Dump\ automata\ to=
+Dump\ smtlib\ scripts\ to=
+Logic\ for\ external\ solver=ALL
+MSOD\ logic=MSODInt
+Remove\ only\ unused\ declarations\ from\ SMT\ file\ (experimental)=false
+SMT\ solver=Internal_SMTInterpol
+SmtParser\ Mode=GenericSmtSolver
+Use\ SMTUtils\ to\ do\ local\ simplifications\ during\ parsing=true
+eclipse.preferences.version=1

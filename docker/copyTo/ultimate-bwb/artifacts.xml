@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1612278508550'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='122'>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='939158'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.activation' version='1.1.0.v201211130549'>
+      <properties size='1'>
+        <property name='download.size' value='55065'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services' version='3.9.0.v20200511-1725'>
+      <properties size='1'>
+        <property name='download.size' value='128679'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.buchiautomizer' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='143818'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xerces' version='2.9.0.v201101211617'>
+      <properties size='1'>
+        <property name='download.size' value='1350089'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.automata' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='10689230'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.boogie.preprocessor' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='91356'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.pea2boogie' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='159610'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.reqtotest' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='60126'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.logging' version='1.2.0.v20180409-1502'>
+      <properties size='1'>
+        <property name='download.size' value='73163'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.variables' version='3.4.800.v20200120-1101'>
+      <properties size='1'>
+        <property name='download.size' value='36056'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.bidi' version='1.3.0.v20200612-1624'>
+      <properties size='1'>
+        <property name='download.size' value='51252'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.czt' version='1.5.0'>
+      <properties size='1'>
+        <property name='download.size' value='4866705'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.boogieast' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='279363'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.sifa' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='21578'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.pathexpressions' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='26649'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.javabdd' version='0.6.0'>
+      <properties size='1'>
+        <property name='download.size' value='409365'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='edu.uci.ics.jung' version='2.0.1'>
+      <properties size='1'>
+        <property name='download.size' value='4670577'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.logging.log4j' version='2.8.2.v20200818-1118'>
+      <properties size='1'>
+        <property name='download.size' value='1717771'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.acsl.parser' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='228423'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.icfgtransformer' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='426438'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.contenttype' version='3.7.800.v20200724-0804'>
+      <properties size='1'>
+        <property name='download.size' value='100631'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.text' version='3.10.300.v20200807-0831'>
+      <properties size='1'>
+        <property name='download.size' value='294510'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem' version='1.7.700.v20200110-1734'>
+      <properties size='1'>
+        <property name='download.size' value='66954'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.sifa' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='122695'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.ojalgo' version='38.18.0'>
+      <properties size='1'>
+        <property name='download.size' value='2719842'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml' version='1.3.4.v201005080400'>
+      <properties size='1'>
+        <property name='download.size' value='252201'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.modelcheckerutils' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='865056'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.source.automatascriptparser' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='149357'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.boogie.parser' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='63434'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jdom' version='1.1.1.v201101151400'>
+      <properties size='1'>
+        <property name='download.size' value='182664'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.core' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='205315'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.ultimatemodel' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='81757'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='BA_FeatureDependenciesCommandlineE4' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='667'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.io' version='2.6.0.v20190123-2029'>
+      <properties size='1'>
+        <property name='download.size' value='232616'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.treeautomizer' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='49640'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.chctoboogie' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='30705'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.pdr' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='33166'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.chcprinter' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='10922'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.codecheck' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='90593'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstractionconcurrent' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='41134'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.analysis.syntaxchecker' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='12393'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.astbuilder' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='44018'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.util' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='414796'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.cli' version='1.3.1'>
+      <properties size='1'>
+        <property name='download.size' value='47740'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.commands' version='3.9.700.v20191217-1850'>
+      <properties size='1'>
+        <property name='download.size' value='115489'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.event' version='1.5.500.v20200616-0800'>
+      <properties size='1'>
+        <property name='download.size' value='35256'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.witnessprinter' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='47098'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.smtinterpol' version='2.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='1094353'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.jna' version='5.6.0.v20200716-0148'>
+      <properties size='1'>
+        <property name='download.size' value='1542722'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.jobs' version='3.10.800.v20200421-0950'>
+      <properties size='1'>
+        <property name='download.size' value='107653'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.jna.platform' version='5.6.0.v20200722-0209'>
+      <properties size='1'>
+        <property name='download.size' value='1425162'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ltk.core.refactoring' version='3.11.100.v20200720-0748'>
+      <properties size='1'>
+        <property name='download.size' value='343755'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.mso' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='44090'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.icfgtransformation' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='26709'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.smtsolver.external' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='87924'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.2.0.v201005080400'>
+      <properties size='1'>
+        <property name='download.size' value='100035'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.analysis.reachingdefinitions' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='83219'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='34105'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.req.printer' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='11423'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.lang' version='3.3.2'>
+      <properties size='1'>
+        <property name='download.size' value='413344'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.witnessparser' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='25212'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.smtlibutils' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='659337'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.referee' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='11146'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='BA_FeatureUltimateCommandLine' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='694'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.resources' version='3.13.800.v20200706-2152'>
+      <properties size='1'>
+        <property name='download.size' value='896698'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher' version='1.5.800.v20200727-1323'>
+      <properties size='1'>
+        <property name='download.size' value='53255'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.buchiprogramproduct' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='31433'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.preferences' version='3.8.0.v20200422-1833'>
+      <properties size='1'>
+        <property name='download.size' value='137172'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.cdt.parser' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='46023'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.blockencoding' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='67877'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.cli' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='38065'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='725313'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.source.smtparser' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='39473'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.invariantsynthesis' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='23489'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='709992'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.reqparser' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='15018'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.icfgtochc' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='20985'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.pea' version='0.89.0'>
+      <properties size='1'>
+        <property name='download.size' value='284575'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.tracecheckerutils' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='164751'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.lassoranker' version='0.9.5'>
+      <properties size='1'>
+        <property name='download.size' value='261710'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.gtk.linux.x86_64' version='1.1.1300.v20200819-0940'>
+      <properties size='1'>
+        <property name='download.size' value='71774'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='127772'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.util' version='3.5.300.v20190708-1141'>
+      <properties size='1'>
+        <property name='download.size' value='73510'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='BA_FeatureDependenciesCommon' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='1927'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core' version='7.0.1.202010091427'>
+      <properties size='1'>
+        <property name='download.size' value='6111559'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filebuffers' version='3.6.1000.v20200409-1035'>
+      <properties size='1'>
+        <property name='download.size' value='116423'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.gson' version='2.8.2.v20180104-1110'>
+      <properties size='1'>
+        <property name='download.size' value='259868'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.core' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='350471'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.inject' version='1.0.0.v20091030'>
+      <properties size='1'>
+        <property name='download.size' value='16996'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.boogie.procedureinliner' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='98698'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.ltl2aut' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='73345'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.x86_64' version='6.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='21755'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.smtlib' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='218801'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.acceleratedinterpolation' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='58611'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.icu' version='67.1.0.v20200706-1749'>
+      <properties size='1'>
+        <property name='download.size' value='13569732'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.log4j' version='1.2.15.v201012070815'>
+      <properties size='1'>
+        <property name='download.size' value='427332'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.common' version='3.13.0.v20200828-1034'>
+      <properties size='1'>
+        <property name='download.size' value='135574'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.app' version='1.5.0.v20200717-0620'>
+      <properties size='1'>
+        <property name='download.size' value='89285'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.scr' version='2.1.16.v20200110-1820'>
+      <properties size='1'>
+        <property name='download.size' value='416644'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.9.0.v20200625-1425'>
+      <properties size='1'>
+        <property name='download.size' value='194756'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.xml.bind' version='2.2.0.v201505121915'>
+      <properties size='1'>
+        <property name='download.size' value='955880'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.linux.x86_64' version='1.2.300.v20180828-0158'>
+      <properties size='1'>
+        <property name='download.size' value='11589'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml.bind' version='2.2.0.v201105210648'>
+      <properties size='1'>
+        <property name='download.size' value='118750'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.expressions' version='3.7.0.v20200720-1126'>
+      <properties size='1'>
+        <property name='download.size' value='92924'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.activation' version='2.0.0.v20200505-1431'>
+      <properties size='1'>
+        <property name='download.size' value='82616'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi' version='3.16.0.v20200828-0759'>
+      <properties size='1'>
+        <property name='download.size' value='1515519'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lmax.disruptor' version='3.3.5'>
+      <properties size='1'>
+        <property name='download.size' value='84805'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.jhoenicke.javacup' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='152704'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.srparse' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='125602'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='BA_FeatureUltimateCommon' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='1913'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.chc' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='32560'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux' version='6.0.0.202008310002'>
+      <properties size='1'>
+        <property name='download.size' value='13721'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.boogie.printer' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='9710'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.analysis.irsdependencies' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='108797'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.native' version='6.0.0.202009030027'>
+      <properties size='1'>
+        <property name='download.size' value='47006'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.runtime' version='3.19.0.v20200724-1004'>
+      <properties size='1'>
+        <property name='download.size' value='73375'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.automatascriptinterpreter' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='68726'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml.stream' version='1.0.1.v201004272200'>
+      <properties size='1'>
+        <property name='download.size' value='43618'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.serializer' version='2.7.1.v201005080400'>
+      <properties size='1'>
+        <property name='download.size' value='300769'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.lib.mcr' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='33042'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstractionwithafas' version='0.2.1'>
+      <properties size='1'>
+        <property name='download.size' value='30239'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

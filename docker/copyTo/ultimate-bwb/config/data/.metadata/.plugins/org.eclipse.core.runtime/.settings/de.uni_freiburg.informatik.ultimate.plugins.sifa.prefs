@@ -1,0 +1,13 @@
+Abstract\ Domain=CompoundDomain
+Call\ Summarizer=ReUseSupersetCallSummarizer
+CompoundDomain\ Intern\ Domains=ExplicitValueDomain;IntervalDomain
+Fluid=SizeLimitFluid
+LogSizeWrapperFluid\ Intern\ Fluid=SizeLimitFluid
+Loop\ Summarizer=FixpointLoopSummarizer
+Max.\ Parallel\ Explicit\ Values=2
+Max.\ Parallel\ Intervals=2
+Simplification\ Technique=NONE
+SizeLimitFluid\ Max.\ DAG\ Size=-1
+SizeLimitFluid\ Max.\ Disjunctions=8
+Xnf\ Conversion\ Technique=BOTTOM_UP_WITH_LOCAL_SIMPLIFICATION
+eclipse.preferences.version=1

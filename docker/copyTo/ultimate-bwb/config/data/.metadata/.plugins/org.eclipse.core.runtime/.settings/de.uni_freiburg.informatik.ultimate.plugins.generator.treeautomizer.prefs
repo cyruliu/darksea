@@ -1,0 +1,7 @@
+Command\ for\ external\ solver=z3 SMTLIB2_COMPLIANT\=true -memory\:1024 -smt2 -in -t\:12000
+Dump\ automata\ to=
+Dump\ smtlib\ scripts\ to=
+Logic\ for\ external\ solver=ALL
+SMT\ solver=External_ModelsAndUnsatCoreMode
+Type\ of\ minimization\ to\ use=NAIVE
+eclipse.preferences.version=1

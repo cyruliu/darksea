@@ -1,0 +1,54 @@
+-------------------runinning time for counting-bits-BK_false.c in bitabs, 4 settings --------------------------------------------
+runinning time for counting-bits-BK_false.c, mathsat: 
+ * TraceAbstraction took 2523.73 ms. Allocated memory is still 530.6 MB. Free memory was 499.5 MB in the beginning and 450.6 MB in the end (delta: 48.9 MB). Peak memory consumption was 48.2 MB. Max. memory is 10.7 GB.
+runinning time for counting-bits-BK_false.c, z3: 
+ * TraceAbstraction took 2359.54 ms. Allocated memory is still 530.6 MB. Free memory was 498.5 MB in the beginning and 450.2 MB in the end (delta: 48.2 MB). Peak memory consumption was 48.2 MB. Max. memory is 10.7 GB.
+runinning time for counting-bits-BK_false.c, cvc4: 
+ * TraceAbstraction took 2429.69 ms. Allocated memory is still 530.6 MB. Free memory was 499.1 MB in the beginning and 450.0 MB in the end (delta: 49.1 MB). Peak memory consumption was 50.3 MB. Max. memory is 10.7 GB.
+runinning time for counting-bits-BK_false.c, default: 
+ * TraceAbstraction took 1599.19 ms. Allocated memory is still 530.6 MB. Free memory was 498.7 MB in the beginning and 472.1 MB in the end (delta: 26.6 MB). Peak memory consumption was 27.3 MB. Max. memory is 10.7 GB.
+-------------------runinning time for counting-bits-set_false.c in bitabs, 4 settings --------------------------------------------
+runinning time for counting-bits-set_false.c, mathsat: 
+ * TraceAbstraction took 1559.39 ms. Allocated memory is still 530.6 MB. Free memory was 499.6 MB in the beginning and 447.8 MB in the end (delta: 51.8 MB). Peak memory consumption was 52.4 MB. Max. memory is 10.7 GB.
+runinning time for counting-bits-set_false.c, z3: 
+ * TraceAbstraction took 1519.20 ms. Allocated memory is still 530.6 MB. Free memory was 500.4 MB in the beginning and 448.0 MB in the end (delta: 52.5 MB). Peak memory consumption was 52.4 MB. Max. memory is 10.7 GB.
+runinning time for counting-bits-set_false.c, cvc4: 
+ * TraceAbstraction took 3837.06 ms. Allocated memory is still 530.6 MB. Free memory was 498.9 MB in the beginning and 447.1 MB in the end (delta: 51.8 MB). Peak memory consumption was 52.4 MB. Max. memory is 10.7 GB.
+runinning time for counting-bits-set_false.c, default: 
+ * TraceAbstraction took 2046.99 ms. Allocated memory is still 530.6 MB. Free memory was 498.0 MB in the beginning and 469.5 MB in the end (delta: 28.5 MB). Peak memory consumption was 27.3 MB. Max. memory is 10.7 GB.
+-------------------runinning time for display-bit1_false.c in bitabs, 4 settings --------------------------------------------
+runinning time for display-bit1_false.c, mathsat: 
+ * TraceAbstraction took 61983.66 ms. Allocated memory was 530.6 MB in the beginning and 677.4 MB in the end (delta: 146.8 MB). Free memory was 501.1 MB in the beginning and 658.1 MB in the end (delta: -157.0 MB). Peak memory consumption was 390.3 MB. Max. memory is 10.7 GB.
+runinning time for display-bit1_false.c, z3: 
+ * TraceAbstraction took 35340.15 ms. Allocated memory was 530.6 MB in the beginning and 673.2 MB in the end (delta: 142.6 MB). Free memory was 500.8 MB in the beginning and 375.4 MB in the end (delta: 125.5 MB). Peak memory consumption was 270.0 MB. Max. memory is 10.7 GB.
+runinning time for display-bit1_false.c, cvc4: 
+ * TraceAbstraction took 53320.84 ms. Allocated memory was 530.6 MB in the beginning and 805.3 MB in the end (delta: 274.7 MB). Free memory was 501.4 MB in the beginning and 632.2 MB in the end (delta: -130.8 MB). Peak memory consumption was 145.4 MB. Max. memory is 10.7 GB.
+runinning time for display-bit1_false.c, default: 
+ * TraceAbstraction took 44574.84 ms. Allocated memory was 530.6 MB in the beginning and 778.0 MB in the end (delta: 247.5 MB). Free memory was 500.5 MB in the beginning and 513.1 MB in the end (delta: -12.6 MB). Peak memory consumption was 236.1 MB. Max. memory is 10.7 GB.
+-------------------runinning time for display-bit_false.c in bitabs, 4 settings --------------------------------------------
+runinning time for display-bit_false.c, mathsat: 
+ * TraceAbstraction took 35596.06 ms. Allocated memory was 530.6 MB in the beginning and 796.9 MB in the end (delta: 266.3 MB). Free memory was 496.1 MB in the beginning and 452.5 MB in the end (delta: 43.6 MB). Peak memory consumption was 311.7 MB. Max. memory is 10.7 GB.
+runinning time for display-bit_false.c, z3: 
+ * TraceAbstraction took 29284.34 ms. Allocated memory was 530.6 MB in the beginning and 851.4 MB in the end (delta: 320.9 MB). Free memory was 496.8 MB in the beginning and 358.1 MB in the end (delta: 138.7 MB). Peak memory consumption was 461.6 MB. Max. memory is 10.7 GB.
+runinning time for display-bit_false.c, cvc4: 
+ * TraceAbstraction took 48020.97 ms. Allocated memory was 530.6 MB in the beginning and 855.6 MB in the end (delta: 325.1 MB). Free memory was 496.8 MB in the beginning and 347.3 MB in the end (delta: 149.6 MB). Peak memory consumption was 476.4 MB. Max. memory is 10.7 GB.
+runinning time for display-bit_false.c, default: 
+ * TraceAbstraction took 54195.65 ms. Allocated memory was 530.6 MB in the beginning and 878.7 MB in the end (delta: 348.1 MB). Free memory was 496.4 MB in the beginning and 763.3 MB in the end (delta: -266.9 MB). Peak memory consumption was 83.2 MB. Max. memory is 10.7 GB.
+-------------------runinning time for parity_false.c in bitabs, 4 settings --------------------------------------------
+runinning time for parity_false.c, mathsat: 
+ * TraceAbstraction took 2247.11 ms. Allocated memory is still 530.6 MB. Free memory was 498.4 MB in the beginning and 453.0 MB in the end (delta: 45.3 MB). Peak memory consumption was 44.0 MB. Max. memory is 10.7 GB.
+runinning time for parity_false.c, z3: 
+ * TraceAbstraction took 2281.51 ms. Allocated memory is still 530.6 MB. Free memory was 498.4 MB in the beginning and 453.7 MB in the end (delta: 44.7 MB). Peak memory consumption was 44.0 MB. Max. memory is 10.7 GB.
+runinning time for parity_false.c, cvc4: 
+ * TraceAbstraction took 2354.42 ms. Allocated memory is still 530.6 MB. Free memory was 501.6 MB in the beginning and 456.1 MB in the end (delta: 45.5 MB). Peak memory consumption was 46.1 MB. Max. memory is 10.7 GB.
+runinning time for parity_false.c, default: 
+ * TraceAbstraction took 1100.20 ms. Allocated memory is still 530.6 MB. Free memory was 499.1 MB in the beginning and 475.2 MB in the end (delta: 23.9 MB). Peak memory consumption was 25.2 MB. Max. memory is 10.7 GB.
+-------------------runinning time for reverse-bits1_false.c in bitabs, 4 settings --------------------------------------------
+runinning time for reverse-bits1_false.c, mathsat: 
+ * TraceAbstraction took 1467.40 ms. Allocated memory is still 530.6 MB. Free memory was 496.2 MB in the beginning and 464.1 MB in the end (delta: 32.1 MB). Peak memory consumption was 31.5 MB. Max. memory is 10.7 GB.
+runinning time for reverse-bits1_false.c, z3: 
+ * TraceAbstraction took 1502.00 ms. Allocated memory is still 530.6 MB. Free memory was 496.1 MB in the beginning and 465.4 MB in the end (delta: 30.7 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+runinning time for reverse-bits1_false.c, cvc4: 
+ * TraceAbstraction took 1684.59 ms. Allocated memory is still 530.6 MB. Free memory was 496.2 MB in the beginning and 465.6 MB in the end (delta: 30.7 MB). Peak memory consumption was 29.4 MB. Max. memory is 10.7 GB.
+runinning time for reverse-bits1_false.c, default: 
+ * TraceAbstraction took 1098.37 ms. Allocated memory is still 530.6 MB. Free memory was 496.1 MB in the beginning and 475.9 MB in the end (delta: 20.2 MB). Peak memory consumption was 18.9 MB. Max. memory is 10.7 GB.

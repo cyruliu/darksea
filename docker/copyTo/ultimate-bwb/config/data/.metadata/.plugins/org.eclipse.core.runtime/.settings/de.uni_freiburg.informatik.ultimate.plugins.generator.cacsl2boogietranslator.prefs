@@ -1,0 +1,14 @@
+Assume\ nondeterminstic\ values\ are\ in\ range=true
+Check\ array\ bounds\ for\ arrays\ that\ are\ off\ heap=ASSUME
+Check\ division\ by\ zero=IGNORE
+Check\ for\ the\ main\ procedure\ if\ all\ allocated\ memory\ was\ freed=false
+Check\ if\ freed\ pointer\ was\ valid=false
+Check\ unreachability\ of\ error\ function\ in\ SV-COMP\ mode=false
+Checked\ method.\ Library\ mode\ if\ empty.=main
+If\ two\ pointers\ are\ subtracted\ or\ compared\ they\ have\ the\ same\ base\ address=ASSUME
+Overapproximate\ operations\ on\ floating\ types=true
+Pointer\ base\ address\ is\ valid\ at\ dereference=ASSUME
+Pointer\ to\ allocated\ memory\ at\ dereference=ASSUME
+Translation\ Mode\:=SV_COMP14
+Use\ constant\ arrays=true
+eclipse.preferences.version=1

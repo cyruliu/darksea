@@ -1,0 +1,6 @@
+Convert\ code\ blocks\ to\ CNF=false
+Dump\ SMT\ script\ to\ file=false
+Remove\ goto\ edges\ from\ RCFG=false
+SMT\ solver=Internal_SMTInterpol
+Size\ of\ a\ code\ block=SingleStatement
+eclipse.preferences.version=1
