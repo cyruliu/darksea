@@ -1,4 +1,4 @@
-# Commandline to run UltimateBwB on source file 
+# Commandline to run UltimateBwB on source file (LTL verification of bitvector programs). 
 
 `./run-ultimate.sh -tc config/AutomizerLTL.xml -s config/svcomp-LTL-64bit-Automizer_Default.epf -i $(source.c)`
 
