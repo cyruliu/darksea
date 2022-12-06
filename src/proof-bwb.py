@@ -144,26 +144,64 @@ prove(rule_10, A_10)
 
 
 
-# General rules &, both operators are non-negative
-rule_and1 = "r=a&b genral: r = a&b, a>=0, b>=0 ==> r<=a, r<=b"
+# Weakening rules &, both operators are non-negative
+rule_and1 = "r<=a&b both non-negative: r <= a&b, a>=0, b>=0 ==> r<=a, r<=b"
 and_a1, and_b1, and_r1= BitVecs('and_a1 and_b1 and_r1', 32)
 # constr_and1 = Implies(And(and_a1 >= 0, and_b1>=0, and_r1==(and_a1&and_b1)), And(and_r1 <= and_a1, and_r1 <= and_b1))
 constr_and1 = Implies(And(and_a1 >= 0, and_b1>=0, and_r1<=(and_a1&and_b1)), And(and_r1 <= and_a1, and_r1 <= and_b1))
 prove(rule_and1, constr_and1)
 
+rule_and1 = "r<a&b both non-negative: r < a&b, a>=0, b>=0 ==> r<=a, r<=b"
+and_a1, and_b1, and_r1= BitVecs('and_a1 and_b1 and_r1', 32)
+constr_and1 = Implies(And(and_a1 >= 0, and_b1>=0, and_r1<(and_a1&and_b1)), And(and_r1 <= and_a1, and_r1 <= and_b1))
+prove(rule_and1, constr_and1)
+
+rule_and1 = "r:=a&b both non-negative: r := a&b, a>=0, b>=0 ==> r<=a, r<=b"
+and_a1, and_b1, and_r1= BitVecs('and_a1 and_b1 and_r1', 32)
+constr_and1 = Implies(And(and_a1 >= 0, and_b1>=0, and_r1==(and_a1&and_b1)), And(and_r1 <= and_a1, and_r1 <= and_b1))
+prove(rule_and1, constr_and1)
+
+
 
 # General rules &, both operators are negative
-rule_and_neg = "r=a&b both negative: r < a&b, a<0, b<0 ==> r<=a, r<=b, r<0"
+rule_and_neg = "r<a&b both negative: r < a&b, a<0, b<0 ==> r<=a, r<=b, r<0"
 and_a2, and_b2, and_r2= BitVecs('and_a2 and_b2 and_r2', 32)
 # constr_and_neg = Implies(And(and_a2 < 0, and_b2<0, and_r2==(and_a2&and_b2)), And(and_r2 <= and_a2, and_r2 <=and_b2, and_r2<0))
 constr_and_neg = Implies(And(and_a2 < 0, and_b2<0, and_r2<(and_a2&and_b2)), And(and_r2 <= and_a2, and_r2 <=and_b2, and_r2<0))
 prove(rule_and_neg, constr_and_neg)
 
+rule_and_neg = "r<=a&b both negative: r <= a&b, a<0, b<0 ==> r<=a, r<=b, r<0"
+and_a2, and_b2, and_r2= BitVecs('and_a2 and_b2 and_r2', 32)
+constr_and_neg = Implies(And(and_a2 < 0, and_b2<0, and_r2<=(and_a2&and_b2)), And(and_r2 <= and_a2, and_r2 <=and_b2, and_r2<0))
+prove(rule_and_neg, constr_and_neg)
+
+rule_and_neg = "r:=a&b both negative: r := a&b, a<0, b<0 ==> r<=a, r<=b, r<0"
+and_a2, and_b2, and_r2= BitVecs('and_a2 and_b2 and_r2', 32)
+constr_and_neg = Implies(And(and_a2 < 0, and_b2<0, and_r2==(and_a2&and_b2)), And(and_r2 <= and_a2, and_r2 <=and_b2, and_r2<0))
+prove(rule_and_neg, constr_and_neg)
+
+
+
+
 # General rules &, operators are mutual exclusive negative
-rule_and_xneg = "r=a&b exclusive negative: r = a&b, a>0, b<0 ==> r<=a, r>0"
+rule_and_xneg = "r=a&b exclusive negative: r = a&b, a>=0, b<0 ==> r<=a, r>=0"
 and_a3, and_b3, and_r3= BitVecs('and_a3 and_b3 and_r3', 32)
 constr_and_xneg = Implies(And(and_a3 >=0 , and_b3<0, and_r3==(and_a3&and_b3)), And(and_r3 <=and_a3, and_r3>=0))
 prove(rule_and_xneg, constr_and_xneg)
+
+
+# weakening rules &, operators are mutual exclusive negative, r can be negative in this case, if not assignment/equal.
+rule_and_xneg = "r<=a&b exclusive negative: r <= a&b, a>0, b<0 ==> r<=a"
+and_a3, and_b3, and_r3= BitVecs('and_a3 and_b3 and_r3', 32)
+constr_and_xneg = Implies(And(and_a3 >=0 , and_b3<0, and_r3<=(and_a3&and_b3)), And(and_r3 <=and_a3))
+prove(rule_and_xneg, constr_and_xneg)
+
+# weakening rules &, operators are mutual exclusive negative, r can be negative in this case, if not assignment/equal.
+rule_and_xneg = "r<a&b exclusive negative: r <= a&b, a>0, b<0 ==> r<=a"
+and_a3, and_b3, and_r3= BitVecs('and_a3 and_b3 and_r3', 32)
+constr_and_xneg = Implies(And(and_a3 >=0 , and_b3<0, and_r3<(and_a3&and_b3)), And(and_r3 <=and_a3))
+prove(rule_and_xneg, constr_and_xneg)
+
 
 # # General rules &, both operators are non-negative
 # rule_and4 = "r<=a&b less than: r < a&b, a>=0, b>=0 ==> r<=a, r<=b"
@@ -187,12 +225,24 @@ prove(rule_and_neg6, constr_and_neg6)
 
 
 
-# General rules or, both operators are non-negative
-rule_or = "r=a|b general: r >= a|b, a>=0, b>=0 ==> r>=a, r>=b"
+# Weakening rules or, both operators are non-negative
+rule_or = "r>=a|b both non-negative: r >= a|b, a>=0, b>=0 ==> r>=a, r>=b"
 or_a1, or_b1, or_r1= BitVecs('or_a1 or_b1 or_r1', 32)
 # constr_or = Implies(And(or_a1 >= 0, or_b1>=0, or_r1==(or_a1|or_b1)), And(or_r1 >= or_a1, or_r1 >= or_b1))
 constr_or = Implies(And(or_a1 >= 0, or_b1>=0, or_r1>=(or_a1|or_b1)), And(or_r1 >= or_a1, or_r1 >= or_b1))
 prove(rule_or, constr_or)
+
+rule_or = "r>a|b both non-negative: r > a|b, a>=0, b>=0 ==> r>=a, r>=b"
+or_a1, or_b1, or_r1= BitVecs('or_a1 or_b1 or_r1', 32)
+constr_or = Implies(And(or_a1 >= 0, or_b1>=0, or_r1>(or_a1|or_b1)), And(or_r1 >= or_a1, or_r1 >= or_b1))
+prove(rule_or, constr_or)
+
+rule_or = "r:=a|b both non-negative: r := a|b, a>=0, b>=0 ==> r>=a, r>=b"
+or_a1, or_b1, or_r1= BitVecs('or_a1 or_b1 or_r1', 32)
+constr_or = Implies(And(or_a1 >= 0, or_b1>=0, or_r1==(or_a1|or_b1)), And(or_r1 >= or_a1, or_r1 >= or_b1))
+prove(rule_or, constr_or)
+
+
 
 # General rules or, both operators are negative(two's complement) 
 rule_or_neg = "r=a|b general both negative: r = a|b, a<0, b<0 ==> r>=a, r>=b, r<0"
@@ -222,26 +272,61 @@ prove(rule_or_log, constr_or_log)
 # prove(rule_or_neg5, constr_or_neg5)
 
 
-# General rules xor, both operators are non-negative
-rule_xor = "r=a^b, both non-negative: r >= a^b, a>=0, b>=0 ==> r>=0"
-xor_a, xor_b, xor_r= BitVecs('xor_a xor_b xor_r', 32)
+# Weakening rules xor, both operators are non-negative
+rule_xor = "r>=a^b, both non-negative: r >= a^b, a>=0, b>=0 ==> r>=0"
+xor_a, xor_b, xor_r = BitVecs('xor_a xor_b xor_r', 32)
 # constr_xor = Implies(And(xor_a >= 0, xor_b>=0, xor_r==(xor_a^xor_b)), And(xor_r >= 0))
 constr_xor = Implies(And(xor_a >= 0, xor_b>=0, xor_r>=(xor_a^xor_b)), And(xor_r >= 0))
 prove(rule_xor, constr_xor)
 
+rule_xor = "r>a^b, both non-negative: r > a^b, a>=0, b>=0 ==> r>=0"
+xor_a, xor_b, xor_r = BitVecs('xor_a xor_b xor_r', 32)
+constr_xor = Implies(And(xor_a >= 0, xor_b>=0, xor_r>(xor_a^xor_b)), And(xor_r >= 0))
+prove(rule_xor, constr_xor)
+
+rule_xor = "r:=a^b, both non-negative: r := a^b, a>=0, b>=0 ==> r>=0"
+xor_a, xor_b, xor_r = BitVecs('xor_a xor_b xor_r', 32)
+constr_xor = Implies(And(xor_a >= 0, xor_b>=0, xor_r==(xor_a^xor_b)), And(xor_r >= 0))
+prove(rule_xor, constr_xor)
+
+
+
 # General rules xor, both operators are negative(two's complement) 
-rule_xor_neg = "r=a^b general both negative: r >= a^b, a<0, b<0 ==> r<0"
+rule_xor_neg = "r>=a^b both negative: r >= a^b, a<0, b<0 ==> r<0"
 xor_a1, xor_b1, xor_r1= BitVecs('xor_a1 xor_b1 xor_r1', 32)
 # constr_xor_neg = Implies(And(xor_a1 < 0, xor_b1 < 0, xor_r1==(xor_a1^xor_b1)), And(xor_r1>=0))
 constr_xor_neg = Implies(And(xor_a1 < 0, xor_b1 < 0, xor_r1>=(xor_a1^xor_b1)), And(xor_r1>=0))
 prove(rule_xor_neg, constr_xor_neg)
 
+rule_xor_neg = "r>a^b both negative: r > a^b, a<0, b<0 ==> r<0"
+xor_a1, xor_b1, xor_r1= BitVecs('xor_a1 xor_b1 xor_r1', 32)
+constr_xor_neg = Implies(And(xor_a1 < 0, xor_b1 < 0, xor_r1>(xor_a1^xor_b1)), And(xor_r1>=0))
+prove(rule_xor_neg, constr_xor_neg)
+
+rule_xor_neg = "r:=a^b both negative: r := a^b, a<0, b<0 ==> r<0"
+xor_a1, xor_b1, xor_r1= BitVecs('xor_a1 xor_b1 xor_r1', 32)
+constr_xor_neg = Implies(And(xor_a1 < 0, xor_b1 < 0, xor_r1==(xor_a1^xor_b1)), And(xor_r1>=0))
+prove(rule_xor_neg, constr_xor_neg)
+
+
+
 # General rules xor, operators are mutual exlusive non-negative(two's complement) 
-rule_xor_xneg = "r=a^b mutual exlusive negative: r <= a^b, a<0, b>=0 ==> r<0"
+rule_xor_xneg = "r<=a^b mutual exlusive negative: r <= a^b, a<0, b>=0 ==> r<0"
 xor_a2, xor_b2, xor_r2= BitVecs('xor_a2 xor_b2 xor_r2', 32)
 # constr_xor_xneg = Implies(And(xor_a2 < 0, xor_b2 >= 0, xor_r2==(xor_a2^xor_b2)), And(xor_r2<=0))
 constr_xor_xneg = Implies(And(xor_a2 < 0, xor_b2 >= 0, xor_r2<=(xor_a2^xor_b2)), And(xor_r2<0))
 prove(rule_xor_xneg, constr_xor_xneg)
+
+rule_xor_xneg = "r<a^b mutual exlusive negative: r <= a^b, a<0, b>=0 ==> r<0"
+xor_a2, xor_b2, xor_r2= BitVecs('xor_a2 xor_b2 xor_r2', 32)
+constr_xor_xneg = Implies(And(xor_a2 < 0, xor_b2 >= 0, xor_r2<(xor_a2^xor_b2)), And(xor_r2<0))
+prove(rule_xor_xneg, constr_xor_xneg)
+
+rule_xor_xneg = "r:=a^b mutual exlusive negative: r := a^b, a<0, b>=0 ==> r<0"
+xor_a2, xor_b2, xor_r2= BitVecs('xor_a2 xor_b2 xor_r2', 32)
+constr_xor_xneg = Implies(And(xor_a2 < 0, xor_b2 >= 0, xor_r2==(xor_a2^xor_b2)), And(xor_r2<0))
+prove(rule_xor_xneg, constr_xor_xneg)
+
 
 # xor to logic rule, operators are one bit 
 rule_xor_log = "a^b one  bit ==> (a==0 && b == 1 || a==1 && b==0)"
@@ -257,14 +342,21 @@ prove(rule_xor_log, constr_xor_log)
 # const_bit = Implies(Or (a_3_1== 0, a_3_1 ==1), (~a_3_1) == Not(a_3_1))
 # prove(rule_comp_1, const_bit)
 
-# General rules complement
-rule_com = "CPL-POS & CPL-NEG, r= ~a genral"
+# Weakening rules complement
+rule_com = "CPL-POS & CPL-NEG, r:= ~a genral"
 com_a, com_r= BitVecs('com_a com_r', 32)
 constr_com1 = Implies(And(com_a >= 0, com_r==(~com_a)), com_r <0)
 constr_com2 = Implies(And(com_a < 0, com_r==(~com_a)), com_r>=0)
 constr_com = And(constr_com1, constr_com2)
 prove(rule_com, constr_com)
 
+# # Rules are not valid when is >=/<=
+# rule_com = "CPL-POS & CPL-NEG, r<= ~a genral"
+# com_a, com_r= BitVecs('com_a com_r', 32)
+# constr_com1 = Implies(And(com_a >= 0, com_r<=(~com_a)), com_r <=0)
+# constr_com2 = Implies(And(com_a < 0, com_r<=(~com_a)), com_r>=0)
+# constr_com = And(constr_com1, constr_com2)
+# prove(rule_com, constr_com)
 
 # # General rules complement
 # rule_com = "CPL-GTE, r>= ~a genral"
