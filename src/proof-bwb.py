@@ -244,20 +244,20 @@ prove(rule_or, constr_or)
 
 
 
-# General rules or, both operators are negative(two's complement) 
+# General rules or, both operators are negative(two's complement)
 rule_or_neg = "r=a|b general both negative: r = a|b, a<0, b<0 ==> r>=a, r>=b, r<0"
 or_a2, or_b2, or_r2= BitVecs('or_a2 or_b2 or_r2', 32)
 constr_or_neg = Implies(And(or_a2 < 0, or_b2 < 0, or_r2==(or_a2|or_b2)), And(or_r2 >= or_a2, or_r2 >= or_b2, or_r2<0))
 # constr_or_neg = Implies(Acand(or_a2 < 0, or_b2 < 0, or_r2>=(or_a2|or_b2)), And(or_r2 >= or_a2, or_r2 >= or_b2, or_r2<0))
 prove(rule_or_neg, constr_or_neg)
 
-# General rules or, both operators are mutual exclusicve negative(two's complement) 
+# General rules or, both operators are mutual exclusicve negative(two's complement)
 rule_or_xneg = "r=a|b general mutual exclusive negative: r = a|b, a<0, b>=0 ==> r>=a, r<0"
 or_a3, or_b3, or_r3= BitVecs('or_a3 or_b3 or_r3', 32)
 constr_or_xneg = Implies(And(or_a3 >= 0, or_b3 < 0, or_r3==(or_a3|or_b3)), And(or_r3 >= or_b3, or_r3<0))
 # constr_or_xneg = Implies(And(or_a3 >= 0, or_b3 < 0, or_r3>=(or_a3|or_b3)), And(or_r3 >= or_b3, or_r3<0))
 prove(rule_or_xneg, constr_or_xneg)
- 
+
 # Or logic rule, both operators are one bit
 rule_or_log = "a|b == 0 to logic: (a|b) == 0 ==> a==0 && b==0 ==> r>=a, r>=b"
 or_a4, or_b4 = BitVecs('or_a4 or_b4', 1)
@@ -265,7 +265,7 @@ constr_or_log = Implies((or_a4|or_b4 == 0), And(or_a4==0,or_b4 == 0))
 prove(rule_or_log, constr_or_log)
 
 
-# # General rules or, both operators are negative(two's complement) 
+# # General rules or, both operators are negative(two's complement)
 # rule_or_neg5 = "r=a|b genral both negative: r < a|b, a<0, b<0 ==> r>=a, r>=b, r<0"
 # or_a5, or_b5, or_r5= BitVecs('or_a5 or_b5 or_r5', 32)
 # constr_or_neg5 = Implies(And(or_a5 < 0, or_b5 < 0, or_r5 < (or_a5|or_b5)), And(or_r5 > or_a5, or_r5 > or_b5, or_r5<0))
@@ -291,7 +291,7 @@ prove(rule_xor, constr_xor)
 
 
 
-# General rules xor, both operators are negative(two's complement) 
+# General rules xor, both operators are negative(two's complement)
 rule_xor_neg = "r>=a^b both negative: r >= a^b, a<0, b<0 ==> r<0"
 xor_a1, xor_b1, xor_r1= BitVecs('xor_a1 xor_b1 xor_r1', 32)
 # constr_xor_neg = Implies(And(xor_a1 < 0, xor_b1 < 0, xor_r1==(xor_a1^xor_b1)), And(xor_r1>=0))
@@ -310,7 +310,7 @@ prove(rule_xor_neg, constr_xor_neg)
 
 
 
-# General rules xor, operators are mutual exlusive non-negative(two's complement) 
+# General rules xor, operators are mutual exlusive non-negative(two's complement)
 rule_xor_xneg = "r<=a^b mutual exlusive negative: r <= a^b, a<0, b>=0 ==> r<0"
 xor_a2, xor_b2, xor_r2= BitVecs('xor_a2 xor_b2 xor_r2', 32)
 # constr_xor_xneg = Implies(And(xor_a2 < 0, xor_b2 >= 0, xor_r2==(xor_a2^xor_b2)), And(xor_r2<=0))
@@ -328,7 +328,7 @@ constr_xor_xneg = Implies(And(xor_a2 < 0, xor_b2 >= 0, xor_r2==(xor_a2^xor_b2)),
 prove(rule_xor_xneg, constr_xor_xneg)
 
 
-# xor to logic rule, operators are one bit 
+# xor to logic rule, operators are one bit
 rule_xor_log = "a^b one  bit ==> (a==0 && b == 1 || a==1 && b==0)"
 xor_a3, xor_b3 = BitVecs('xor_a3 xor_b3', 1)
 constr_xor_log = Implies(1==(xor_a3^xor_b3), Or(And(xor_a3==0, xor_b3==1), And(xor_a3==1,xor_b3 ==0)))
