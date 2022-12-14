@@ -111,7 +111,7 @@ pre = And(e1>=0, e2==31)
 post = (e1 >> e2 == 0) 
 prove(rule, Implies(pre, post))
 
-# In C right shit is undefined, therefore implementation dependent.
+# In C right/left shit with negative number is undefined, therefore implementation-dependent.
 rule = f"R-RSHIFT-NEG (e1 < 0) && (e2=31) |- e1 >> e2 <==> -1"
 pre = And(e1<0, e2==31)
 post = (e1 >> e2 == -1) 
