@@ -38,6 +38,9 @@ op_ge = [gt, geq, eq]
 # Although we define all variables in the 32 bit sizes,
 # all rules are in general and size independent,
 # except R-RSHIFT-POS and R-RSHIFT-NEG.
+# e1 and e2 are commutative in binary operations,
+# therefore we prove them in one direction here.
+
 e1, e2, r = BitVecs('e1 e2 r', 32)
 e1bit, e2bit = BitVecs('e1bit e2bit', 1)
 
