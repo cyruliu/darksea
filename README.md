@@ -65,3 +65,16 @@ An example run on slice option, criteria gloabal variable `x`(Termination):
 ```
 sudo bash darksea.sh -s /tools/tmp_test/test.c -o /tools/tmp_test/lifted/test-compile.bc  -c "@x" -t
 ```
+
+
+## Referring to the Paper for Details (BibTeX Citation) 
+``` C
+@inproceedings{liu2021proving,
+  title={Proving LTL Properties of Bitvector Programs and Decompiled Binaries},
+  author={Liu, Yuandong Cyrus and Pang, Chengbin and Dietsch, Daniel and Koskinen, Eric and Le, Ton-Chanh and Portokalidis, Georgios and Xu, Jun},
+  booktitle={Programming Languages and Systems: 19th Asian Symposium, APLAS 2021, Chicago, IL, USA, October 17--18, 2021, Proceedings 19},
+  pages={285--304},
+  year={2021},
+  organization={Springer}
+}
+```
